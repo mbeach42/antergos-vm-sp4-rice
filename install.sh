@@ -38,7 +38,7 @@ rm ~/anaconda.sh
 cd
 
 # Remove some unnessesary things from installing openbox
-trizen -R antergos-openbox-meta kalu
+trizen -Rs antergos-openbox-meta yaourt
 
 # Update
 trizen -Syu
