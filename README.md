@@ -29,5 +29,5 @@ A simple rice for running Antergos in a virtual machine on my Surface Pro 4. I w
 ![sample screenshot](https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/wallpaper/mountains.jpg)
 
 # Installed packages 
-Why is textlive so big! 
+Why is Texlive so big! 
 ![pacgraph](https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/screenshots/pacgraph.png)
