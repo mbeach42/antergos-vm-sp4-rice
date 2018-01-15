@@ -24,7 +24,7 @@ A simple rice for running Antergos in a virtual machine on my Surface Pro 4. I w
 ![sample screenshot](https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/screenshots/2018-01-15-171216_2736x1824_scrot.png)
 
 ## Wallpapers
-![sample_screenshot]https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/wallpaper/glacier.jpg)
+![sample_screenshot](https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/wallpaper/glacier.jpg)
 ![sample screenshot](https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/wallpaper/sky-mountain.jpg)
 ![sample screenshot](https://github.com/mbeach42/antergos-vm-sp4-rice/blob/master/wallpaper/mountains.jpg)
 
