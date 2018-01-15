@@ -136,5 +136,5 @@ bindsym $mod+m exec "/usr/local/bin/switch-audio-port"
 exec --no-startup-id "compton -cC"
 #exec --no-startup-id nm-applet
 exec --no-startup-id dropbox &
-#exec --no-startup-id feh --bg-scale ~/Dropbox/mountains.jpg
+exec --no-startup-id feh --bg-scale ~/.wallpaper/mountains.jpg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

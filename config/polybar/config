@@ -14,15 +14,15 @@ clear = #00
 [bar/top]
 monitor = Virtual-1
 width = 100%
-height = 26
+height = 42
 radius = 0
 bottom = true
 background = ${colours.bg}
 foreground = ${colours.maia}
-font-0 = San Francisco Display:size=14;2
-;font-0 = NotoSans-Regular:size=14;0
-font-1 = FontAwesome:size=14;0
-font-2 = MaterialIcons:size=14;0
+font-0 = San Francisco Display:size=20;2
+;font-0 = NotoSans-Regular:size=20;0
+font-1 = FontAwesome:size=20;0
+font-2 = MaterialIcons:size=20;0
 module-margin = 2 
 modules-left   = i3 
 modules-center = clock
