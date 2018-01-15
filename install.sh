@@ -23,10 +23,10 @@ mv -r ~/julia-vim/* ~/.vim
 sudo pacman -S xmodmap
 
 # Communication things
-trizen -S --noconfirm --noedit slack-desktop qutebrowser thunderbird 
+trizen -S --noconfirm --noedit slack-desktop qutebrowser thunderbird gitkraken
 
 # Other trivial things
-trizen -S --noconfirm --noedit neofetch feh
+trizen -S --noconfirm --noedit neofetch feh pacgraph
 
 # Programming
 sudo pacman -S julia
