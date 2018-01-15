@@ -9,9 +9,7 @@ yaourt -S trizen-git
 trizen -S --noconfirm --noedit zsh git antigen-git termite ranger base16-git
 
 # i3-related desktop things
-trizen -S --noconfirm --noedit i3-gaps-next-git i3-blocks-git i3status-git
-rofi-git
-dmemu polybar-git compton compton-conf-git ttf-material-icons ttf-font-awesome-4
+trizen -S --noconfirm --noedit i3-gaps-next-git rofi-git dmemu polybar-git compton compton-conf-git ttf-material-icons ttf-font-awesome-4
 
 # File manger related 
 trizen -S --noconfirm --noedit dropbox pantheon-files pantheon-files-plugin-dropbox-bzr 
@@ -20,8 +18,8 @@ trizen -S --noconfirm --noedit dropbox pantheon-files pantheon-files-plugin-drop
 trizen -S --noconfirm --noedit tf-fira-code-git ttf-hack otf-fira-sans otf-fira-mono otf-san-francisco ttf-ms-fonts ttf-google-fonts-git nerd-fonts-complete
 
 # Text editor 
-trizen -S --noconfirm --noedit vim vim-julia-git
-cp -r ~/julia-vim/* ~/.vim
+trizen -S --noconfirm --noedit vim vim-julia-git texlive-most
+mv -r ~/julia-vim/* ~/.vim
 sudo pacman -S xmodmap
 
 # Communication things
