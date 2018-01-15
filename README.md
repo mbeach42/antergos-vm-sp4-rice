@@ -1,5 +1,5 @@
 # antergos-vm-sp4-rice
-A simple rice for running Antergos in a virtual machine on my Surface Pro 4. 
+A simple rice for running Antergos in a virtual machine on my Surface Pro 4. I was inspired by [KevOBrien's rice for Manjoro](https://github.com/KevOBrien/dotfiles)
 
 **Distro:** [Antergos](https://antergos.com/)
 
