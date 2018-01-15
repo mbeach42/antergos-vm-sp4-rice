@@ -13,7 +13,7 @@ A simple rice for running Antergos in a virtual machine on my Surface Pro 4.
 
 **zsh prompt:** [pure](https://github.com/sindresorhus/pure)
 
-**fonts:** haven't bothered change the default 'Monospace'
+**fonts:** haven't bothered change the defaults
 
 
 ## Screenshots
