@@ -4,9 +4,9 @@
 set $mod Mod4
 font pango:monospace 9
 hide_edge_borders both
-gaps inner 0
-gaps outer 1 
-for_window [class="^.*"] border pixel 5 
+gaps inner 10
+gaps outer 0
+for_window [class="^.*"] border pixel 5
 floating_modifier $mod
 
 # essential programs
@@ -17,7 +17,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+v split v
 bindsym $mod+Shift+p split h
 bindsym $mod+f fullscreen toggle
-bindsym $mod+Shift+s layout stacking
+#bindsym $mod+Shift+s layout stacking
 bindsym $mod+Shift+w layout tabbed
 bindsym $mod+Shift+e layout toggle split
 bindsym $mod+Shift+space floating toggle
@@ -34,9 +34,9 @@ bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
-bindsym $mod+Shift+h focus left
-bindsym $mod+Shift+j focus down
-bindsym $mod+Shift+k focus up
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
@@ -136,5 +136,5 @@ bindsym $mod+m exec "/usr/local/bin/switch-audio-port"
 exec --no-startup-id "compton -cC"
 #exec --no-startup-id nm-applet
 exec --no-startup-id dropbox &
-exec --no-startup-id feh --bg-scale ~/.wallpaper/mountains.jpg
+exec_always --no-startup-id feh --bg-scale ~/.wallpaper/mountains.jpg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
