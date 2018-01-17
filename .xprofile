@@ -1,4 +1,9 @@
-#!/bin/sh
+#!/bin/s
+
+xrandr --newmode "hd" 72.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync
+xrandr --addmode Virtual-1 hd
+xrandr --output Virtual-1 --mode hd
+
 xrandr --newmode "sp4" 426.00 2736 2952 3248 3760 1824 1827 1837 1890 -hsync +vsync
 xrandr --addmode Virtual-1 sp4
 xrandr --output Virtual-1 --mode sp4
