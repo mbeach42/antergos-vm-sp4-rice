@@ -1,0 +1,528 @@
+[04/04/18, 18:01:45:568] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[04/04/18, 18:01:45:568] info: ║      Slack 3.1.0, linux 4.15.14-1-ARCH on x64 at 04/04/18, 18:01:45:564      ║
+[04/04/18, 18:01:45:568] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[04/04/18, 18:01:45:708] info: Initializing local storage instance at path: /home/mbeach/.config/Slack/local-settings.json
+[04/04/18, 18:01:46:186] error: Calls failed to load, bailing
+[04/04/18, 18:01:46:188] info: cld3::loadModule: loading cld3 module
+[04/04/18, 18:01:46:218] info: cld3Loader::loadModule: running environment is NODE
+[04/04/18, 18:01:46:218] info: cld3Loader::loadModule: constructed module object for runtime
+[04/04/18, 18:01:46:577] info: cld3Loader::initializeRuntime: successfully initialized module
+[04/04/18, 18:01:46:578] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[04/04/18, 18:01:46:582] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[04/04/18, 18:01:46:583] info: SSBIntegration: Main window preload script loaded 1510.183898
+[04/04/18, 18:01:48:212] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:01:48:218] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:01:51:267] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:51:338] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:52:352] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 1877718.307929
+}
+[04/04/18, 18:01:53:332] info: Store: SELECT_CHANNEL C70BYG935
+[04/04/18, 18:01:53:334] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:53:336] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[04/04/18, 18:01:53:340] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/04/18, 18:01:53:343] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:53:344] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:53:348] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:53:489] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[04/04/18, 18:01:55:090] info: Raw Locale list: ["C","POSIX","en_CA.utf8","","/usr/bin/locale: Cannot set LC_CTYPE to default locale: No such file or directory","/usr/bin/locale: Cannot set LC_MESSAGES to default locale: No such file or directory","/usr/bin/locale: Cannot set LC_COLLATE to default locale: No such file or directory",""]
+[04/04/18, 18:01:55:090] info: Filtered Locale list: ["en_CA"]
+[04/04/18, 18:01:55:090] info: Counts: {"en":["en_CA"]}
+[04/04/18, 18:01:55:090] info: Setting en
+[04/04/18, 18:01:55:091] info: Result: {"en":"en-US"}
+[04/04/18, 18:01:55:094] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[04/04/18, 18:01:55:095] info: Loading dictionary for language en-US
+[04/04/18, 18:01:55:095] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+[04/04/18, 18:01:56:066] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:01:56:068] info: Creating node-spellchecker instance
+[04/04/18, 18:01:56:081] info: Actually installing spell check provider to Electron
+[04/04/18, 18:14:37:800] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:14:38:961] info: Unloading spellchecker
+[04/04/18, 18:14:38:964] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:14:39:031] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:14:39:033] info: Unloading spellchecker
+[04/04/18, 18:15:40:005] info: Restoring spellchecker
+[04/04/18, 18:15:40:008] info: Loading dictionary for language en-US
+[04/04/18, 18:15:40:009] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:15:40:063] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:40:073] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:15:40:073] info: Creating node-spellchecker instance
+[04/04/18, 18:15:41:235] info: Unloading spellchecker
+[04/04/18, 18:15:41:236] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:41:236] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:41:242] info: Unloading spellchecker
+[04/04/18, 18:15:41:821] info: Restoring spellchecker
+[04/04/18, 18:15:41:822] info: Loading dictionary for language en-US
+[04/04/18, 18:15:41:822] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:15:41:865] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:41:870] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:15:41:871] info: Creating node-spellchecker instance
+[04/04/18, 18:15:42:551] info: Unloading spellchecker
+[04/04/18, 18:15:42:551] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:42:552] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:42:553] info: Unloading spellchecker
+[04/04/18, 18:18:01:192] info: Restoring spellchecker
+[04/04/18, 18:18:01:192] info: Loading dictionary for language en-US
+[04/04/18, 18:18:01:193] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:18:01:228] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:01:241] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:18:01:241] info: Creating node-spellchecker instance
+[04/04/18, 18:18:01:700] info: Unloading spellchecker
+[04/04/18, 18:18:01:702] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:01:705] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:01:742] info: Unloading spellchecker
+[04/04/18, 18:18:03:480] info: Restoring spellchecker
+[04/04/18, 18:18:03:481] info: Loading dictionary for language en-US
+[04/04/18, 18:18:03:483] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:18:03:515] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:03:517] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:18:03:518] info: Creating node-spellchecker instance
+[04/04/18, 18:18:04:618] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:04:618] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:04:663] info: Unloading spellchecker
+[04/04/18, 18:18:04:666] info: Unloading spellchecker
+[04/04/18, 18:18:33:246] info: Restoring spellchecker
+[04/04/18, 18:18:33:254] info: Loading dictionary for language en-US
+[04/04/18, 18:18:33:257] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:18:33:339] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:33:341] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:18:33:341] info: Creating node-spellchecker instance
+[04/04/18, 18:18:34:317] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:34:318] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:34:334] info: Unloading spellchecker
+[04/04/18, 18:18:34:417] info: Unloading spellchecker
+[04/04/18, 18:21:18:068] info: Restoring spellchecker
+[04/04/18, 18:21:18:070] info: Loading dictionary for language en-US
+[04/04/18, 18:21:18:070] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:21:18:135] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:21:18:138] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:21:18:138] info: Creating node-spellchecker instance
+[04/04/18, 18:21:18:622] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:21:18:663] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:21:18:668] info: Unloading spellchecker
+[04/04/18, 18:21:18:685] info: Unloading spellchecker
+[04/04/18, 18:23:00:127] info: Restoring spellchecker
+[04/04/18, 18:23:00:129] info: Loading dictionary for language en-US
+[04/04/18, 18:23:00:130] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:23:00:181] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:23:00:186] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:23:00:186] info: Creating node-spellchecker instance
+[04/04/18, 18:23:00:903] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:23:00:912] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:23:00:925] info: Unloading spellchecker
+[04/04/18, 18:23:00:935] info: Unloading spellchecker
+[04/04/18, 18:42:27:985] info: Restoring spellchecker
+[04/04/18, 18:42:27:987] info: Loading dictionary for language en-US
+[04/04/18, 18:42:27:987] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:42:28:072] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:28:091] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:42:28:092] info: Creating node-spellchecker instance
+[04/04/18, 18:42:30:590] info: Store: SELECT_CHANNEL D70F6V6BA
+[04/04/18, 18:42:33:285] info: Loading dictionary for language en-US
+[04/04/18, 18:42:33:287] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:42:33:289] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:42:37:153] info: Unloading spellchecker
+[04/04/18, 18:42:37:242] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:37:243] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:37:330] info: Unloading spellchecker
+[04/04/18, 18:42:46:788] info: Restoring spellchecker
+[04/04/18, 18:42:46:792] info: Loading dictionary for language en-US
+[04/04/18, 18:42:46:792] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:42:46:865] info: Unloading spellchecker
+[04/04/18, 18:42:46:907] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:46:907] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:46:911] info: Unloading spellchecker
+[04/04/18, 18:42:46:920] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:42:46:920] info: Creating node-spellchecker instance
+[04/04/18, 18:42:49:408] info: Restoring spellchecker
+[04/04/18, 18:42:49:410] info: Loading dictionary for language en-US
+[04/04/18, 18:42:49:410] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:42:49:467] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:49:504] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:42:53:856] info: Unloading spellchecker
+[04/04/18, 18:42:53:867] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:53:869] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:53:872] info: Unloading spellchecker
+[04/04/18, 18:43:01:732] info: Restoring spellchecker
+[04/04/18, 18:43:01:733] info: Loading dictionary for language en-US
+[04/04/18, 18:43:01:733] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:43:01:747] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:43:01:747] info: Creating node-spellchecker instance
+[04/04/18, 18:43:01:814] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:43:07:097] info: Unloading spellchecker
+[04/04/18, 18:43:07:098] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:43:07:098] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:43:07:102] info: Unloading spellchecker
+[04/04/18, 18:55:38:889] info: Restoring spellchecker
+[04/04/18, 18:55:38:890] info: Loading dictionary for language en-US
+[04/04/18, 18:55:38:890] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 18:55:38:929] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:38:934] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 18:55:38:934] info: Creating node-spellchecker instance
+[04/04/18, 18:55:39:389] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:39:390] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:39:809] info: Unloading spellchecker
+[04/04/18, 18:55:39:810] info: Unloading spellchecker
+[04/04/18, 18:55:40:548] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    26,
+    26
+  ],
+  "size": [
+    1323,
+    1730
+  ]
+}
+[04/04/18, 19:08:27:472] info: Restoring spellchecker
+[04/04/18, 19:08:27:473] info: Loading dictionary for language en-US
+[04/04/18, 19:08:27:473] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:08:27:497] info: Unloading spellchecker
+[04/04/18, 19:08:27:509] info: Restoring spellchecker
+[04/04/18, 19:08:27:509] info: Loading dictionary for language en-US
+[04/04/18, 19:08:27:510] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:08:27:564] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:27:567] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:08:27:568] info: Creating node-spellchecker instance
+[04/04/18, 19:08:27:569] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:08:29:461] info: Unloading spellchecker
+[04/04/18, 19:08:29:462] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:29:463] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:29:465] info: Unloading spellchecker
+[04/04/18, 19:08:36:819] info: Restoring spellchecker
+[04/04/18, 19:08:36:819] info: Loading dictionary for language en-US
+[04/04/18, 19:08:36:821] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:08:36:860] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:36:865] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:08:36:866] info: Creating node-spellchecker instance
+[04/04/18, 19:08:39:524] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:39:525] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:39:570] info: Unloading spellchecker
+[04/04/18, 19:08:39:590] info: Unloading spellchecker
+[04/04/18, 19:08:43:033] info: Restoring spellchecker
+[04/04/18, 19:08:43:039] info: Loading dictionary for language en-US
+[04/04/18, 19:08:43:040] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:08:43:083] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:43:084] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:08:43:084] info: Creating node-spellchecker instance
+[04/04/18, 19:08:45:914] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:45:920] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:46:009] info: Unloading spellchecker
+[04/04/18, 19:08:46:012] info: Unloading spellchecker
+[04/04/18, 19:08:48:932] info: Restoring spellchecker
+[04/04/18, 19:08:48:933] info: Loading dictionary for language en-US
+[04/04/18, 19:08:48:933] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:08:48:946] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:08:48:946] info: Creating node-spellchecker instance
+[04/04/18, 19:08:48:997] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:50:730] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:50:739] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:50:856] info: Unloading spellchecker
+[04/04/18, 19:08:50:857] info: Unloading spellchecker
+[04/04/18, 19:08:54:539] info: Restoring spellchecker
+[04/04/18, 19:08:54:544] info: Loading dictionary for language en-US
+[04/04/18, 19:08:54:544] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:08:54:600] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:54:602] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:08:54:602] info: Creating node-spellchecker instance
+[04/04/18, 19:09:05:331] info: Unloading spellchecker
+[04/04/18, 19:09:05:335] info: Unloading spellchecker
+[04/04/18, 19:09:05:335] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:09:08:736] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    26,
+    26
+  ],
+  "size": [
+    867,
+    1730
+  ]
+}
+[04/04/18, 19:09:23:785] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:09:42:530] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:10:07:271] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:10:28:128] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:10:47:111] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1762
+  ]
+}
+[04/04/18, 19:10:48:145] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:11:05:812] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:11:06:554] info: Restoring spellchecker
+[04/04/18, 19:11:06:555] info: Loading dictionary for language en-US
+[04/04/18, 19:11:06:556] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:11:06:690] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:11:06:694] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:11:06:695] info: Creating node-spellchecker instance
+[04/04/18, 19:11:07:534] info: Unloading spellchecker
+[04/04/18, 19:11:07:564] info: Unloading spellchecker
+[04/04/18, 19:11:07:566] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:11:51:727] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:12:01:422] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1762
+  ]
+}
+[04/04/18, 19:12:02:464] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:12:10:220] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:12:25:405] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1717
+  ]
+}
+[04/04/18, 19:12:48:386] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1717
+  ]
+}
+[04/04/18, 19:12:54:770] info: Restoring spellchecker
+[04/04/18, 19:12:54:771] info: Loading dictionary for language en-US
+[04/04/18, 19:12:54:771] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:12:54:780] info: Unloading spellchecker
+[04/04/18, 19:12:54:973] info: Restoring spellchecker
+[04/04/18, 19:12:54:975] info: Loading dictionary for language en-US
+[04/04/18, 19:12:54:976] info: Returning local copy: /home/mbeach/.config/Slack/dictionaries/en-US.bdic
+[04/04/18, 19:12:54:982] info: Unloading spellchecker
+[04/04/18, 19:12:55:108] info: Unloading spellchecker
+[04/04/18, 19:12:55:109] info: Unloading spellchecker
+[04/04/18, 19:12:55:112] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:12:55:112] info: Creating node-spellchecker instance
+[04/04/18, 19:12:55:113] info: Setting current spellchecker to en-US, requested language was en-US
+[04/04/18, 19:12:55:775] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1717
+  ]
+}
+[04/04/18, 19:13:32:123] error: Apr-4 19:13:32.123 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 19:14:02:166] error: Apr-4 19:14:02.166 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 19:14:32:215] error: Apr-4 19:14:32.215 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+[04/04/18, 19:15:23:871] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1762
+  ]
+}
+[04/04/18, 19:17:30:825] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1717
+  ]
+}
+[04/04/18, 19:18:56:924] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1762
+  ]
+}

@@ -18,6 +18,7 @@ alias df='df -h'
 alias mars='ssh mbeach@mars.perimeterinstitute.ca'
 alias graham='ssh mbeach@graham.sharcnet.ca'
 alias titan='ssh mbeach@10.10.7.148'
+alias titanfs='sshfs mbeach@10.10.7.148:/home/mbeach /mnt/titan -C'
 alias pacman='sudo pacman'
 alias hd='xrandr --output Virtual-1 --mode hd'
 alias home='xrandr --output Virtual-1 --mode 1920x1200'
@@ -38,3 +39,19 @@ PERL5LIB="/home/mbeach/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LI
 PERL_LOCAL_LIB_ROOT="/home/mbeach/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
 PERL_MB_OPT="--install_base \"/home/mbeach/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/mbeach/perl5"; export PERL_MM_OPT;
+
+
+# Replace a line 
+function font_small {
+	sed -i 's/Monospace\ 24/Monospace\ 12/g' ~/.config/termite/config
+	sed -i 's/\:size=25/\:size=12/g' ~/.config/polybar/config
+	sed -i 's/height=50/height=28/g' ~/.config/polybar/config
+	sed -i 's/-scale-factor=2/-scale-factor=1/g' ~/.config/chromium-flags.conf
+}
+
+function font_big {
+	sed -i 's/Monospace\ 12/Monospace\ 24/g' ~/.config/termite/config
+	sed -i 's/\:size=12/\:size=25/g' ~/.config/polybar/config
+	sed -i 's/height=28/height=50/g' ~/.config/polybar/config
+	sed -i 's/-scale-factor=1/-scale-factor=2/g' ~/.config/chromium-flags.conf
+}
