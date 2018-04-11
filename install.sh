@@ -18,15 +18,14 @@ trizen -S --noconfirm --noedit dropbox pantheon-files pantheon-files-plugin-drop
 trizen -S --noconfirm --noedit tf-fira-code-git ttf-hack otf-fira-sans otf-fira-mono otf-san-francisco ttf-ms-fonts ttf-google-fonts-git nerd-fonts-complete
 
 # Text editor 
-trizen -S --noconfirm --noedit vim vim-julia-git texlive-most
-mv -r ~/julia-vim/* ~/.vim
+trizen -S --noconfirm --noedit vim texlive-most
 sudo pacman -S xmodmap
 
 # Communication things
-trizen -S --noconfirm --noedit slack-desktop qutebrowser thunderbird gitkraken
+trizen -S --noconfirm --noedit slack-desktop qutebrowser thunderbird gitkraken google-chrome sublime-text-dev ungoogled-chromium waterfox-bin
 
 # Other trivial things
-trizen -S --noconfirm --noedit neofetch feh pacgraph
+trizen -S --noconfirm --noedit neofetch feh pacgraph mupdf 
 
 # Programming
 sudo pacman -S julia
