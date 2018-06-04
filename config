@@ -1,0 +1,19 @@
+host titanxp
+    hostname titanxp
+    port 22
+    user mbeach
+    ProxyCommand ssh mars.perimeterinstitute.ca -W %h:%p
+    IdentityFile ~/.ssh/titan_rsa
+    
+host local_server
+    hostname local_server
+    port 22
+    user mbeach
+    ProxyCommand ssh mars.perimeterinstitute.ca -W %h:%p
+
+host mars
+    hostname mars.perimeterinstitute.ca
+    port 22
+    user mbeach
+    IdentityFile ~/.ssh/mars_rsa
+
