@@ -1,0 +1,194 @@
+[options]
+font = Input Mono Condensed 16
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+clickable_url = true
+scrollback_lines = 15000
+search_wrap = true
+cursor_shape = block
+cursor_blink = on
+
+[hints]
+#jroundness = 2.0
+
+
+# special
+foreground      = #fdf6e3
+foreground_bold = #fdf6e3
+cursor          = #fdf6e3
+background      = #263238
+
+# black
+color0  = #2aa198
+color8  = #fdf6e3
+
+# red
+color1  = #c792ea
+color9  = #cb4b16
+
+# green
+color2  = #c3e88d
+color10 = #89ddff
+
+# yellow
+color3  = #ffcb6b
+color11 = #8ec07c
+
+# blue
+color4  = #82aaff
+color12 = #fbf1c7
+
+# magenta
+color5  = #89ddff
+color13 = #6c71c4
+
+# cyan
+color6  = #2aa198
+color14 = #ca0000
+
+# white
+color7  = #eee8d5
+color15 = #fdf6e3
+
+# Base16 Brewer
+# Author: Timothée Poisot (http://github.com/tpoisot)
+
+foreground      = #b7b8b9
+foreground_bold = #dadbdc
+cursor          = #dadbdc
+background      = #0c0d0e
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #0c0d0e
+color8  = #737475
+color7  = #b7b8b9
+color15 = #fcfdfe
+
+# Red
+color1  = #e31a1c
+color9  = #e31a1c
+
+# Green
+color2  = #31a354
+color10 = #31a354
+
+# Yellow
+color3  = #dca060
+color11 = #dca060
+
+# Blue
+color4  = #3182bd
+color12 = #3182bd
+
+# Purple
+color5  = #756bb1
+color13 = #756bb1
+
+# Teal
+color6  = #80b1d3
+color14 = #80b1d3
+
+# Extra colors
+color16 = #e6550d
+color17 = #b15928
+color18 = #2e2f30
+# Base16 Default Dark
+# Author: Chris Kempson (http://chriskempson.com)
+
+foreground          = #d8d8d8
+foreground_bold     = #e8e8e8
+cursor              = #e8e8e8
+cursor_foreground   = #181818
+background          = rgba(24, 24, 24)
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #181818
+color8  = #585858
+color7  = #d8d8d8
+color15 = #f8f8f8
+
+# Red
+color1  = #ab4642
+color9  = #ab4642
+
+# Green
+color2  = #a1b56c
+color10 = #a1b56c
+
+# Yellow
+color3  = #f7ca88
+color11 = #f7ca88
+
+# Blue
+color4  = #7cafc2
+color12 = #7cafc2
+
+# Purple
+color5  = #ba8baf
+color13 = #ba8baf
+
+# Teal
+color6  = #86c1b9
+color14 = #86c1b9
+
+# Extra colors
+color16 = #dc9656
+color17 = #a16946
+color18 = #282828
+color19 = #383838
+color20 = #b8b8b8
+color21 = #e8e8e8
+[colors]
+# Base16 Monokai
+# Author: Wimer Hazenberg (http://www.monokai.nl)
+
+foreground          = #f8f8f2
+foreground_bold     = #f5f4f1
+cursor              = #f5f4f1
+cursor_foreground   = #272822
+background          = rgba(39, 40, 34)
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #272822
+color8  = #75715e
+color7  = #f8f8f2
+color15 = #f9f8f5
+
+# Red
+color1  = #f92672
+color9  = #f92672
+
+# Green
+color2  = #a6e22e
+color10 = #a6e22e
+
+# Yellow
+color3  = #f4bf75
+color11 = #f4bf75
+
+# Blue
+color4  = #66d9ef
+color12 = #66d9ef
+
+# Purple
+color5  = #ae81ff
+color13 = #ae81ff
+
+# Teal
+color6  = #a1efe4
+color14 = #a1efe4
+
+# Extra colors
+color16 = #fd971f
+color17 = #cc6633
+color18 = #383830
+color19 = #49483e
+color20 = #a59f85
+color21 = #f5f4f1

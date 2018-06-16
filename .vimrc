@@ -1,86 +1,82 @@
-inoremap jk <ESC>
-let mapleader = "<Space>"
-set background=dark
-set nocompatible
+imap jk <Esc>
+let mapleader=" "
+let maplocalleader=" "
 
+call plug#begin('~/.vim/plugged')
+Plug 'ervandew/supertab'
+Plug 'w0rp/ale'
+Plug 'scrooloose/nerdcommenter'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+"Plug 'julialang/julia-vim'
+"Plug 'oxinabox/julia-vim-completions'
+"Plug 'hynek/vim-python-pep8-indent'
+"Plug 'klen/python-mode'
+Plug 'flazz/vim-colorschemes'
+Plug 'rakr/vim-one'
+Plug 'lervag/vimtex'
+"Plug 'brennier/quicktex'
+"Plug 'AtsushiSakai/julia.vim'
+
+"Plug 'sedm0784/vim-you-autocorrect'
+call plug#end()
+
+nnoremap j gj
+nnoremap k gk
+
+set termguicolors
+colorscheme one
+set background=dark
+
+set nocompatible
 filetype indent plugin on
 syntax on
-set hidden
-set wildmenu
-set showcmd
-set hlsearch
-set ignorecase
-set smartcase
-set backspace=indent,eol,start
-set nostartofline
-set ruler
-set laststatus=2
-set confirm
-set visualbell
-set number 
-set shiftwidth=4
-set softtabstop=4
-set expandtab
-set encoding=utf-8
+set cursorline 
+set breakindent
 set wrap
-set textwidth=79
-set showcmd
-set cursorline
-set lazyredraw
-set showmatch
-set foldenable
+set textwidth=80
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set autoindent
 set relativenumber
+set encoding=UTF-8
+set hlsearch
+set incsearch
+" Quick jumping between splits
+map <C-J> <C-W>j
+map <C-K> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
 
-nmap j gj
-nmap k gk
-nmap \e :NERDTreeToggle<CR>
+" Open new splits easily
+map vv <C-W>v
+map ss <C-W>s
+map Q <C-W>
 
-set statusline=
-set statusline+=%#PmenuSel#
-set statusline+=%#LineNr#
-set statusline+=\ %f
-set statusline+=%m\
-set statusline+=%=
+set backup
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set backupskip=/tmp/*,/private/tmp/*
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set writebackup
 
-" strips trailing whitespace at the end of files. this
-" is called on buffer write in the autogroup above.
-function! <SID>StripTrailingWhitespaces()
-    " save last search & cursor position
-    let _s=@/
-    let l = line(".")
-    let c = col(".")
-    %s/\s\+$//e
-    let @/=_s
-    call cursor(l, c)
-endfunction
 
-function! GitBranch()
-  return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
-endfunction
+" NERD Tree
+let NERDTreeShowHidden=1
+let NERDTreeShowBookmarks=1
+let NERDTreeShowLineNumbers=1
+let NERDTreeQuitOnOpen=1
+nnoremap <Leader>f :NERDTreeToggle<Enter>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+let NERDTreeQuitOnOpen = 1
+let NERDTreeDirArrows = 1
+"let NERDTreeMinimalUI=1
 
-function! StatuslineGit()
-  let l:branchname = GitBranch()
-  return strlen(l:branchname) > 0?'  '.l:branchname.' ':''
-endfunction
-
-set statusline=
-set statusline+=%#PmenuSel#
-set statusline+=%{StatuslineGit()}
-set statusline+=%#LineNr#
-set statusline+=\ %f
-set statusline+=%m\
-set statusline+=%=
-set statusline+=%#CursorColumn#
-set statusline+=\ %y
-set statusline+=\ %{&fileencoding?&fileencoding:&encoding}
-set statusline+=\[%{&fileformat}\]
-set statusline+=\ %p%%
-set statusline+=\ %l:%c
-set statusline+=\ 
-" let g:airline_theme='angr'
-" let base16colorspace=256 " Access all 256 colors
-" colorscheme base16-dracula
-if filereadable(expand("~/.vimrc_background"))
-let base16colorspace=256
-  source ~/.vimrc_background
+" VIMTEX
+let g:tex_flavor = 'latex'
+if empty(v:servername) && exists('*remote_startserver')
+        call remote_startserver('VIM')
 endif

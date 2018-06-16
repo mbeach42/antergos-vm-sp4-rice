@@ -1,0 +1,17 @@
+[06/14/18, 09:32:34:238] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/14/18, 09:32:34:239] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/14/18, 09:32:34:236      ║
+[06/14/18, 09:32:34:239] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/14/18, 09:32:34:300] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/14/18, 09:32:34:612] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/14/18, 09:32:34:619] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/14/18, 09:32:35:111] info: Store: SET_NETWORK_STATUS online
+[06/14/18, 09:32:37:598] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/14/18, 09:32:37:603] info: Store: MAIN_WINDOW_SHOWN
+[06/14/18, 09:32:37:613] info: Store: SET_FULL_SCREEN
+[06/14/18, 09:32:37:614] info: Store: SET_FULL_SCREEN
+[06/14/18, 09:32:37:615] info: Store: SET_FULL_SCREEN

@@ -1,0 +1,445 @@
+[06/15/18, 14:12:25:130] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/15/18, 14:12:25:131] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/15/18, 14:12:25:126      ║
+[06/15/18, 14:12:25:131] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/15/18, 14:12:25:494] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/15/18, 14:12:25:685] info: NetworkStatus: Waiting for network online…
+[06/15/18, 14:12:26:121] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:26:126] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:26:127] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:26:135] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/15/18, 14:12:26:137] info: Don't start background client because T70J8333P is selected team
+[06/15/18, 14:12:26:137] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 14:12:26:138] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 14:12:26:146] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/15/18, 14:12:26:231] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 14:12:26:232] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:26:542] info: Store: SET_NETWORK_STATUS offline
+[06/15/18, 14:12:26:761] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:26:763] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:26:866] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 14:12:26:867] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:31:412] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 14:12:31:813] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 14:12:31:814] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/15/18, 14:12:31:815] info: Store: MAIN_WINDOW_SHOWN
+[06/15/18, 14:12:31:829] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:32:028] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:32:824] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1292,
+    24
+  ],
+  "size": [
+    1244,
+    1360
+  ]
+}
+[06/15/18, 14:12:35:499] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:35:699] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:36:056] info: Store: SELECT_CHANNEL CAJFPPJFN
+[06/15/18, 14:12:36:060] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/15/18, 14:12:36:062] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/15/18, 14:12:36:810] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:36:902] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:36:909] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:36:982] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/15/18, 14:12:36:988] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 14:12:36:989] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[06/15/18, 14:13:17:961] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:18:507] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:18:511] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:18:925] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:19:264] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:19:267] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:19:631] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:20:208] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:13:20:212] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:21:44:495] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:21:44:497] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:21:48:529] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:21:48:530] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:48:06:865] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:48:09:823] info: Store: SET_FULL_SCREEN
+[06/15/18, 14:55:06:569] info: Store: SET_SUSPEND_STATUS
+[06/15/18, 14:55:26:405] info: Store: SET_NETWORK_STATUS offline
+[06/15/18, 14:55:26:407] info: Store: SET_SUSPEND_STATUS true
+[06/15/18, 14:55:32:472] info: NetworkStatus: Waiting for network online…
+[06/15/18, 14:55:32:478] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 14:55:32:478] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 14:55:37:481] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 14:55:37:481] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 14:55:42:698] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 14:55:43:103] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 14:55:43:106] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/15/18, 15:05:09:432] info: Store: SET_SUSPEND_STATUS
+[06/15/18, 15:05:55:932] info: Store: SET_NETWORK_STATUS offline
+[06/15/18, 15:05:56:031] info: Store: SET_SUSPEND_STATUS true
+[06/15/18, 15:06:01:594] info: NetworkStatus: Waiting for network online…
+[06/15/18, 15:06:01:604] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:06:01:605] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:06:06:605] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:06:06:605] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:06:11:107] info: Store: SET_SUSPEND_STATUS
+[06/15/18, 15:07:50:681] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:07:50:681] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:07:50:768] info: Store: SET_SUSPEND_STATUS true
+[06/15/18, 15:07:55:662] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:07:55:663] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:07:56:926] info: NetworkStatus: Waiting for network online…
+[06/15/18, 15:07:56:934] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:07:56:935] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:08:01:935] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:08:01:936] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:08:06:936] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:08:06:937] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:08:12:133] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 15:08:12:537] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 15:08:12:539] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/15/18, 15:24:08:485] info: Store: SET_SUSPEND_STATUS
+[06/15/18, 15:28:24:241] info: Store: SET_NETWORK_STATUS offline
+[06/15/18, 15:28:24:242] info: Store: SET_SUSPEND_STATUS true
+[06/15/18, 15:28:29:992] info: NetworkStatus: Waiting for network online…
+[06/15/18, 15:28:30:000] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:28:30:001] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:28:35:002] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:28:35:002] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:28:40:002] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:28:40:003] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:28:45:193] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 15:28:45:597] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 15:28:45:599] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/15/18, 15:28:59:903] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[06/15/18, 15:29:00:008] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 15:30:01:826] info: Store: SET_SUSPEND_STATUS
+[06/15/18, 15:32:43:007] info: Store: SET_NETWORK_STATUS offline
+[06/15/18, 15:32:43:009] info: Store: SET_SUSPEND_STATUS true
+[06/15/18, 15:32:48:978] info: NetworkStatus: Waiting for network online…
+[06/15/18, 15:32:48:988] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:32:48:988] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:32:53:058] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:059] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:060] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:062] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:062] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:063] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:064] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:065] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:066] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:069] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:072] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:073] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:074] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:226] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:229] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:53:230] info: Store: SET_FULL_SCREEN
+[06/15/18, 15:32:54:039] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    24
+  ],
+  "size": [
+    2512,
+    1360
+  ]
+}
+[06/15/18, 15:32:54:783] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/15/18, 15:32:54:783] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[06/15/18, 15:33:00:969] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 15:33:01:781] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 15:33:01:783] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/15/18, 15:40:41:536] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T70J8333P-UAJUXS849-9dd4781ca676-512",
+  "channel": "CAJFPPJFN",
+  "content": "[REDACTED]",
+  "id": "Q9PI6hkWD3RJW8",
+  "launchUri": "slack://channel?id=CAJFPPJFN&message=1529091641.000229&team=T70J8333P",
+  "msg": "1529091641.000229",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T70J8333P",
+  "title": "[REDACTED]"
+}

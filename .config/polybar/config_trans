@@ -1,0 +1,151 @@
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[colours]
+;bg =    #263238
+bg =    #1f000000
+maia =  #ffffffff
+;maia = #89ddff
+white = #24242424
+number = #ffffff
+grey =  #4982AAFF
+clear = #00
+
+[bar/top]
+;monitor = eDP1 
+width = 100%
+height = 30
+radius = 0
+bottom = true
+background = ${colours.bg}
+foreground = ${colours.maia}
+font-0 = SF Pro Text:size=18;4
+;font-0 = Input :size=18;3
+font-1 = unifont:fontformat=truetype:size=8:weight=bold:antialias=false;4
+font-2 = "Wuncon siji:pixelsize=8;4"
+font-3 = "Font Awesome 5 Free:style=Regular:pixelsize=17;4"
+font-4 = "Font Awesome 5 Free:style=Solid:pixelsize=17;4"
+module-margin = 0 
+modules-left   = i3 
+modules-center = clock
+modules-right  = battery cpu memory wifi
+
+[module/clock]
+type = internal/date
+date = %a %b %d   %{F#ffffff}%I:%M
+
+[module/i3]
+type = internal/i3
+enable-scroll = false
+label-focused = %name%
+label-focused-foreground = ${colours.number}
+label-focused-background = ${colours.grey}
+label-focused-padding = 1
+label-unfocused = %name%
+label-unfocused-foreground = ${colours.number}
+label-unfocused-padding = 1
+label-visible = %name%
+label-visible-foreground = ${colours.number}
+label-visible-padding = 0
+label-urgent = %name%
+label-urgent-foreground = ${colours.number}
+label-urgent-padding = 0
+label-mode = %mode%
+label-mode-padding = 0
+label-mode-foreground = ${colours.number}
+label-mode-background = ${colours.number}
+
+
+
+[module/cpu]
+type = internal/cpu
+interval = 10
+label =  %percentage%%
+ramp-coreload-0 = ▁
+ramp-coreload-1 = ▂
+ramp-coreload-2 = ▃
+ramp-coreload-3 = ▄
+ramp-coreload-4 = ▅
+ramp-coreload-5 = ▆
+ramp-coreload-6 = ▇
+ramp-coreload-7 = █
+
+[module/memory]
+type = internal/memory
+interval = 2
+label =  %percentage_used%%
+
+
+[module/wifi]
+type = internal/network
+;interface = net1
+interval = 3.0
+format-connected = <ramp-signal> <label-connected>
+label-connected = %essid% %{F#66}%local_ip%
+label-disconnected = %{F#666}%{F#ccfafafa} not connected
+label-disconnected-foreground = #66
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #666
+
+
+[module/date]
+type = internal/date
+date = %%{T3}%%{F#666}%{F#ccfafafa} %Y-%m-%d  %%{F#fba922}%%{F#ccfafafa} %H:%M%%{T-}
+interval = 5
+
+
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+format = <ramp> <label>
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = #666
+
+
+[module/volume]
+type = internal/volume
+speaker-mixer = Speaker
+headphone-mixer = Headphone
+headphone-id = 9
+
+format-volume = <ramp-volume> <label-volume>
+label-volume = %percentage%%
+label-volume-foreground = ${BAR.foreground}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-3 = 
+ramp-volume-foreground = #666
+
+label-muted = %{F#666}%{F#ccfafafa} sound muted
+label-muted-foreground = #99
+
+
+[module/battery]
+type = internal/battery
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+format-full = %{F#666}%{F#ccfafafa}  <label-full>
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = #666
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = #666
+animation-charging-framerate = 750
+

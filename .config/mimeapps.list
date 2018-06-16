@@ -1,0 +1,22 @@
+[Default Applications]
+inode/directory=org.pantheon.files.desktop
+x-scheme-handler/trash=org.pantheon.files.desktop
+x-scheme-handler/mailspring=mailspring.desktop
+x-scheme-handler/http=firefox.desktop
+text/html=firefox.desktop
+text/xml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/vnd.mozilla.xul+xml=firefox.desktop
+text/mml=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+
+[Added Associations]
+inode/directory=mupdf.desktop;org.pwmt.zathura.desktop;org.pantheon.files.desktop;
+x-scheme-handler/http=exo-web-browser.desktop;
+x-scheme-handler/https=exo-web-browser.desktop;firefox.desktop;
+application/pdf=qpdfview.desktop;
+text/html=firefox.desktop;
+text/xml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/vnd.mozilla.xul+xml=firefox.desktop;
+text/mml=firefox.desktop;

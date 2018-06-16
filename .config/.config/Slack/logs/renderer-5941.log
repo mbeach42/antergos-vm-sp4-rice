@@ -1,0 +1,969 @@
+[04/05/18, 11:10:40:865] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[04/05/18, 11:10:40:880] info: ║      Slack 3.1.0, linux 4.15.14-1-ARCH on x64 at 04/05/18, 11:10:40:844      ║
+[04/05/18, 11:10:40:880] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[04/05/18, 11:10:41:532] info: Initializing local storage instance at path: /home/mbeach/.config/Slack/local-settings.json
+[04/05/18, 11:10:42:103] info: NetworkStatus: Waiting for network online…
+[04/05/18, 11:10:43:367] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/05/18, 11:10:43:775] info: Store: SET_NETWORK_STATUS online
+[04/05/18, 11:10:50:457] info: Store: SELECT_CHANNEL D70F6V6BA
+[04/05/18, 11:10:50:464] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/05/18, 11:10:50:471] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[04/05/18, 11:10:50:856] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[04/05/18, 11:10:50:902] info: Store: MAIN_WINDOW_SHOWN
+[04/05/18, 11:10:50:968] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:10:50:969] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:10:50:971] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:10:51:190] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[04/05/18, 11:10:51:926] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    18,
+    18
+  ],
+  "size": [
+    1884,
+    1114
+  ]
+}
+[04/05/18, 11:10:52:142] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/05/18, 11:10:52:146] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[04/05/18, 11:10:52:322] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/05/18, 11:10:52:437] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[04/05/18, 11:10:52:616] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[04/05/18, 11:11:00:658] info: Store: SELECT_CHANNEL D70K3N1L1
+[04/05/18, 11:11:04:481] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:11:04:482] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:18:56:567] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:18:58:014] info: Store: SELECT_CHANNEL D71TMRGR2
+[04/05/18, 11:19:05:932] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:19:05:936] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:15:816] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:17:486] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:17:487] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:17:951] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:17:958] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:17:959] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:18:379] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:21:18:381] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:23:07:167] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T70J8333P-U72ULH4VD-gb634e37e8c4-512",
+  "channel": "D71TMRGR2",
+  "content": "[REDACTED]",
+  "id": "0Vg5f2hWQkzOwW7",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D71TMRGR2&message=1522941786.000903&team=T70J8333P",
+  "msg": "1522941786.000903",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T70J8333P",
+  "title": "[REDACTED]"
+}
+[04/05/18, 11:23:09:873] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:23:25:884] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:23:25:891] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:23:30:290] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:23:45:355] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:23:45:362] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:26:16:440] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:26:17:042] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:26:17:044] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:27:48:410] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:27:48:858] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:27:48:866] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:27:49:325] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:27:49:861] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:27:49:866] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:29:34:044] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:29:34:419] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:29:34:421] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:38:11:886] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:38:12:102] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:38:12:105] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:38:12:885] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:38:13:247] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:38:13:250] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:40:15:020] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:40:15:713] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:40:15:714] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:40:46:281] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:40:46:635] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:40:46:640] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:41:00:856] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:41:01:691] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:41:01:693] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:41:33:517] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:41:34:223] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:41:34:228] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:00:714] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:01:307] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:01:310] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:02:403] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:02:405] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:02:949] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:02:951] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:03:420] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:42:03:423] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:43:49:008] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:43:49:367] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:43:49:370] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:46:17:260] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:46:18:031] info: Store: SET_FULL_SCREEN
+[04/05/18, 11:46:18:034] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:00:14:452] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:00:15:091] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:00:15:092] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:00:15:501] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:00:15:502] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:09:693] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:10:020] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:10:022] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:33:178] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:33:716] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:33:717] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:57:868] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:58:431] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:01:58:434] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:02:53:390] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:02:55:174] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:02:55:175] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:03:36:752] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:03:37:385] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:03:37:386] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:04:59:871] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:05:00:651] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:05:00:659] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:05:18:899] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:05:19:541] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:05:19:558] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:01:559] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:02:274] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:02:281] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:56:713] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:58:340] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:58:345] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:58:854] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:59:240] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:06:59:245] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:07:02:977] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:07:03:907] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:07:03:909] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:07:05:170] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:07:05:171] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:09:07:032] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:09:07:553] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:09:07:556] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:09:31:746] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:09:32:238] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:09:32:240] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:13:46:866] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:13:47:949] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:13:47:952] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:13:48:498] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:13:48:971] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:13:48:974] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:17:30:934] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:17:31:777] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:17:31:778] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:36:37:321] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:36:37:947] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:36:37:948] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:40:13:881] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:40:14:599] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:40:14:600] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:44:01:442] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:44:01:884] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:44:01:892] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:50:11:296] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:50:11:906] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:50:11:909] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:57:26:965] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:57:29:001] info: Store: SET_FULL_SCREEN
+[04/05/18, 12:57:29:009] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:07:28:743] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:07:29:141] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:07:29:142] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:07:29:874] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:07:30:282] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:07:30:282] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:09:05:438] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T70J8333P-U721R15PG-99b251406867-512",
+  "channel": "D71935Z7F",
+  "content": "[REDACTED]",
+  "id": "9Q8qFziOm5AyAx9",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D71935Z7F&message=1522948145.000198&team=T70J8333P",
+  "msg": "1522948145.000198",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T70J8333P",
+  "title": "[REDACTED]"
+}
+[04/05/18, 13:29:05:332] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:29:07:231] info: Store: SET_FULL_SCREEN
+[04/05/18, 13:29:07:238] info: Store: SET_FULL_SCREEN
+[04/05/18, 15:00:14:013] info: Store: SET_FULL_SCREEN
+[04/05/18, 15:00:16:457] info: Store: SELECT_CHANNEL D71935Z7F
+[04/05/18, 15:00:17:470] info: Store: SELECT_CHANNEL D71GQLQ1K
+[04/05/18, 15:00:19:633] info: Store: SELECT_CHANNEL D71935Z7F
+[04/05/18, 15:00:31:277] info: Store: UPDATE_SETTINGS
+{
+  "hasRunFromTray": true
+}
+[04/05/18, 15:00:31:282] info: Store: SHOW_TRAY_BALLOON
+{
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Linux App.",
+  "title": "Why didn’t Slack quit?"
+}
+[04/05/18, 15:00:31:294] info: Store: SET_FULL_SCREEN
+[04/05/18, 15:00:31:303] info: Store: SET_FULL_SCREEN
+[04/05/18, 15:00:31:311] info: Store: SET_FULL_SCREEN
+[04/05/18, 15:38:04:831] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T70J8333P-U721R15PG-99b251406867-512",
+  "channel": "D71935Z7F",
+  "content": "[REDACTED]",
+  "id": "zKm1I8sKQkPMDzV",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D71935Z7F&message=1522957084.000393&team=T70J8333P",
+  "msg": "1522957084.000393",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T70J8333P",
+  "title": "[REDACTED]"
+}
+[04/05/18, 15:38:13:065] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T70J8333P-U721R15PG-99b251406867-512",
+  "channel": "D71935Z7F",
+  "content": "[REDACTED]",
+  "id": "RogZIgtOnl5039m",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D71935Z7F&message=1522957093.000013&team=T70J8333P",
+  "msg": "1522957093.000013",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T70J8333P",
+  "title": "[REDACTED]"
+}
+[04/05/18, 15:49:19:952] info: Store: SET_NETWORK_STATUS offline
+[04/05/18, 15:49:24:834] info: NetworkStatus: Waiting for network online…
+[04/05/18, 15:49:26:323] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:49:26:323] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:49:51:002] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:49:51:006] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:11:034] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:11:034] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:11:035] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:11:036] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:11:037] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:11:037] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:31:063] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:31:064] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:31:065] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:31:065] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:31:066] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:31:067] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:51:092] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:51:093] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:51:095] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:51:095] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:51:099] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:51:099] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:50:51:100] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:50:51:100] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:11:121] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:11:122] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:11:122] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:11:123] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:11:123] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:11:123] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:31:148] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:31:148] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:31:149] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:31:149] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:31:149] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:31:150] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:51:176] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:51:177] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:51:181] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:51:181] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:51:182] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:51:182] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:51:51:182] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:51:51:182] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:11:205] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:11:205] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:11:206] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:11:207] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:11:207] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:11:207] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:31:231] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:31:231] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:31:233] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:31:233] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:31:233] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:31:234] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:51:259] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:51:259] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:51:260] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:51:260] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:51:261] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:51:261] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:52:51:262] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:52:51:262] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:11:287] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:11:287] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:11:289] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:11:290] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:11:290] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:11:290] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:31:314] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:31:315] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:31:317] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:31:318] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:31:319] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:31:320] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:51:343] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:51:344] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:51:344] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:51:344] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:51:345] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:51:345] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:53:51:345] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:53:51:345] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:11:370] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:11:370] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:11:371] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:11:372] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:11:372] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:11:373] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:31:399] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:31:400] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:31:403] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:31:403] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:31:404] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:31:404] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:51:427] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:51:431] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:51:431] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:51:432] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:51:432] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:51:432] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:54:51:432] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:54:51:433] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:55:02:580] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:55:02:581] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:55:02:581] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:55:02:586] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:55:02:587] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:55:02:587] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:55:02:589] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:55:02:589] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:55:02:593] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/05/18, 15:55:02:593] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/05/18, 15:55:02:737] info: NetworkStatus: Waiting for network online…
+[04/05/18, 15:55:03:154] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/05/18, 15:55:03:950] info: Store: SET_NETWORK_STATUS online
+[04/05/18, 15:55:03:954] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/05/18, 15:55:05:761] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[04/05/18, 15:55:06:138] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[04/05/18, 15:57:08:949] info: Store: SET_NETWORK_STATUS offline
+[04/05/18, 15:57:11:860] info: NetworkStatus: Waiting for network online…
+[04/05/18, 15:57:12:056] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/05/18, 15:57:12:965] info: Store: SET_NETWORK_STATUS online
+[04/05/18, 15:57:12:971] warn: Base Component: Attempting to update LoadingScreen when unmounted.

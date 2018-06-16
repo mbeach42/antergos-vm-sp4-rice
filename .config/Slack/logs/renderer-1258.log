@@ -1,0 +1,147 @@
+[06/15/18, 08:04:45:408] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/15/18, 08:04:45:409] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/15/18, 08:04:45:404      ║
+[06/15/18, 08:04:45:409] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/15/18, 08:04:45:634] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/15/18, 08:04:45:825] info: NetworkStatus: Waiting for network online…
+[06/15/18, 08:04:46:350] info: Don't start background client because T70J8333P is selected team
+[06/15/18, 08:04:46:352] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/15/18, 08:04:46:359] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/15/18, 08:04:46:395] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 08:04:46:808] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 08:04:49:915] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:04:49:927] info: Store: MAIN_WINDOW_SHOWN
+[06/15/18, 08:04:49:957] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:49:962] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:49:965] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:50:092] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:04:50:240] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:50:240] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:50:601] info: Store: SELECT_CHANNEL D70F6V6BA
+[06/15/18, 08:04:50:605] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/15/18, 08:04:50:608] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/15/18, 08:04:50:951] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1290,
+    15
+  ],
+  "size": [
+    1255,
+    1378
+  ]
+}
+[06/15/18, 08:04:51:466] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:04:51:566] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:04:51:577] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:04:51:772] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/15/18, 08:04:51:797] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:04:51:799] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[06/15/18, 08:04:57:484] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:58:933] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:04:58:937] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:03:346] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:03:771] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:03:983] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:04:302] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:06:117] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:06:411] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:06:682] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:07:800] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:08:232] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:09:629] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:05:09:634] info: Store: SET_FULL_SCREEN
+[06/15/18, 17:53:04:976] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/15/18, 17:53:04:977] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/15/18, 17:53:04:972      ║
+[06/15/18, 17:53:04:977] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/15/18, 17:53:05:096] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/15/18, 17:53:05:312] info: Main window preload script finished
+{
+  "readyTime": 907.91628
+}
+[06/15/18, 17:53:05:331] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 17:53:05:339] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 17:53:05:341] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 17:53:05:637] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/15/18, 17:53:05:642] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/15/18, 17:53:05:810] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}

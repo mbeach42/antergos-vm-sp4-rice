@@ -1,0 +1,389 @@
+[04/04/18, 17:30:39:560] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[04/04/18, 17:30:39:562] info: ║      Slack 3.1.0, linux 4.15.14-1-ARCH on x64 at 04/04/18, 17:30:39:556      ║
+[04/04/18, 17:30:39:562] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[04/04/18, 17:30:40:335] info: Initializing local storage instance at path: /home/mbeach/.config/Slack/local-settings.json
+[04/04/18, 17:30:40:682] info: NetworkStatus: Waiting for network online…
+[04/04/18, 17:30:41:243] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/04/18, 17:30:41:650] info: Store: SET_NETWORK_STATUS online
+[04/04/18, 18:01:44:293] info: Store: ADD_NEW_TEAM
+{
+  "id": "U70K3MV25",
+  "name": "[REDACTED]",
+  "team_id": "T70J8333P",
+  "team_name": "[REDACTED]",
+  "team_url": "[REDACTED]"
+}
+[04/04/18, 18:01:44:355] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "unloaded",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:44:407] info: Store: FOREGROUND_APP
+[04/04/18, 18:01:44:428] info: Store: MAIN_WINDOW_SHOWN
+[04/04/18, 18:01:44:521] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:01:45:445] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    26,
+    26
+  ],
+  "size": [
+    2684,
+    1730
+  ]
+}
+[04/04/18, 18:01:47:739] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:01:47:745] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:01:50:739] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:50:934] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:51:804] info: Store: SELECT_CHANNEL C70BYG935
+[04/04/18, 18:01:51:816] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:51:827] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[04/04/18, 18:01:51:862] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/04/18, 18:01:52:229] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:52:347] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:52:354] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[04/04/18, 18:01:53:365] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[04/04/18, 18:14:37:723] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:14:38:963] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:14:38:969] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:39:937] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:41:178] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:41:180] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:41:833] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:42:478] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:15:42:481] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:01:191] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:01:675] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:01:678] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:03:482] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:04:605] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:04:613] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:33:254] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:34:315] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:18:34:316] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:21:18:071] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:21:18:620] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:21:18:621] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:23:00:075] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:23:00:833] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:23:00:834] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:27:911] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:30:501] info: Store: SELECT_CHANNEL D70F6V6BA
+[04/04/18, 18:42:37:170] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:37:176] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:46:753] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:46:754] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:49:394] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:53:719] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:42:53:744] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:43:01:751] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:43:06:877] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:43:06:883] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:38:771] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:39:389] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:39:389] info: Store: SET_FULL_SCREEN
+[04/04/18, 18:55:40:547] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    26,
+    26
+  ],
+  "size": [
+    1323,
+    1730
+  ]
+}
+[04/04/18, 19:08:27:472] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:29:432] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:29:433] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:36:817] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:39:512] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:39:513] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:43:056] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:45:920] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:45:920] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:48:965] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:50:733] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:50:741] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:08:54:550] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:09:05:223] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:09:08:736] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    26,
+    26
+  ],
+  "size": [
+    867,
+    1730
+  ]
+}
+[04/04/18, 19:09:23:785] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:09:42:530] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:10:07:269] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:10:28:128] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:10:47:111] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1762
+  ]
+}
+[04/04/18, 19:10:48:146] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:11:05:812] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:11:06:587] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:11:07:554] info: Store: SET_FULL_SCREEN
+[04/04/18, 19:11:51:727] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:12:01:421] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1762
+  ]
+}
+[04/04/18, 19:12:02:463] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:12:10:218] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1720
+  ]
+}
+[04/04/18, 19:12:25:406] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1717
+  ]
+}
+[04/04/18, 19:12:48:387] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    862,
+    1717
+  ]
+}
+[04/04/18, 19:12:55:776] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1717
+  ]
+}
+[04/04/18, 19:15:23:815] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1762
+  ]
+}
+[04/04/18, 19:17:30:822] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1717
+  ]
+}
+[04/04/18, 19:18:56:921] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    31,
+    31
+  ],
+  "size": [
+    1318,
+    1762
+  ]
+}

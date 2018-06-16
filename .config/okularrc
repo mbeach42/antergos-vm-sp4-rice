@@ -1,0 +1,16 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 1824=1730
+State=AAAA/wAAAAD9AAAAAAAAAoYAAAaFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 2736=646
+
+[Recent Files]
+File1[$e]=$HOME/Dropbox/PHYS733/FinalProject/1b_mag.pdf
+File2[$e]=$HOME/Dropbox/PHYS733/FinalProject/1d_h.pdf
+File3[$e]=/run/user/1000/gvfs/sftp:host=10.10.7.148/home/mbeach/project/PHYS733/FinalProject/4b_W_9_area_law.pdf
+Name1[$e]=1b_mag.pdf
+Name2[$e]=1d_h.pdf
+Name3[$e]=4b_W_9_area_law.pdf

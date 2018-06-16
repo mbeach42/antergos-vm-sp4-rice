@@ -1,0 +1,305 @@
+[06/15/18, 22:12:11:062] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/15/18, 22:12:11:063] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/15/18, 22:12:11:060      ║
+[06/15/18, 22:12:11:063] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/15/18, 22:12:11:137] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/15/18, 22:12:11:416] error: Desktop module calls failed to load
+{
+  "error": {
+    "message": "libCallsCore.so: cannot open shared object file: No such file or directory",
+    "stack": "Error: libCallsCore.so: cannot open shared object file: No such file or directory\n    at process.module.(anonymous function) [as dlopen] (ELECTRON_ASAR.js:172:20)\n    at Object.Module._extensions..node (module.js:671:18)\n    at Object.module.(anonymous function) [as .node] (ELECTRON_ASAR.js:186:18)\n    at Module.load (module.js:561:32)\n    at tryModuleLoad (module.js:504:12)\n    at Function.Module._load (module.js:496:3)\n    at Module.require (module.js:586:17)\n    at require (internal/module.js:11:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/node_modules/bindings/bindings.js:81:44)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@slack/slack-calls-prebuilt/modules/@slack/slack-calls/index.js:1:192)"
+  }
+}
+[06/15/18, 22:12:11:416] error: Desktop module calls failed to load
+[06/15/18, 22:12:11:439] info: cld3::loadModule: loading cld3 module
+[06/15/18, 22:12:11:456] info: cld3Loader::loadModule: running environment is NODE
+[06/15/18, 22:12:11:456] info: cld3Loader::loadModule: constructed module object for runtime
+[06/15/18, 22:12:11:596] info: cld3Loader::initializeRuntime: successfully initialized module
+[06/15/18, 22:12:11:597] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[06/15/18, 22:12:11:612] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, v2 spellchecker is not available
+[06/15/18, 22:12:11:626] info: Main window preload script finished
+{
+  "readyTime": 865.685702
+}
+[06/15/18, 22:12:14:558] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 22:12:15:414] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/15/18, 22:12:15:660] info: Store: MAIN_WINDOW_SHOWN
+[06/15/18, 22:12:16:732] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 22:12:17:103] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 9856.732509
+}
+[06/15/18, 22:12:17:253] info: Store: SELECT_CHANNEL CAJFPPJFN
+[06/15/18, 22:12:17:254] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/15/18, 22:12:17:254] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/15/18, 22:12:17:255] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1292,
+    24
+  ],
+  "size": [
+    1244,
+    1360
+  ]
+}
+[06/15/18, 22:12:17:363] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[06/15/18, 22:12:17:366] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 22:12:17:367] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 22:12:17:385] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/15/18, 22:12:17:669] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 22:12:17:670] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[06/15/18, 22:12:17:760] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V2"
+}
+[06/15/18, 22:12:17:779] info: loadAsmModule: loading hunspell-asm module
+[06/15/18, 22:12:18:058] info: loadAsmModule: asm module loaded successfully
+[06/15/18, 22:12:18:058] info: SpellChecker: Starting spellchecker with language detector
+[06/15/18, 22:12:18:058] info: SpellChecker::enableSpellCheckerLanguageDetector: enable spellchecker language detector
+[06/15/18, 22:12:18:059] info: SpellChecker::startWithDictionary: Starting language detector with preloaded dict from last used language en
+[06/15/18, 22:12:18:369] info: download: downloading dictionary for 'en-us'
+[06/15/18, 22:12:18:369] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.aff",
+  "cachePolicy": "default"
+}
+[06/15/18, 22:12:18:374] info: fetchResourceAsBuffer: downloading
+{
+  "filePath": "https://spellcheck.slack-edge.com/dictionaries/en-us/1/en-us.dic",
+  "cachePolicy": "default"
+}
+[06/15/18, 22:12:18:383] info: dictionaryDownloader: verifying hash
+[06/15/18, 22:12:18:416] info: SpellChecker::downloadDictionary: Dictionary is ready for 
+{
+  "language": "en"
+}
+[06/15/18, 22:12:18:463] info: assignSpellchecker: spellCheckerTable added new checker for 'en'
+[06/15/18, 22:12:18:464] info: SpellChecker::prepareDictionary: Dictionary buffer for 'en' is loaded into spellchecker
+[06/15/18, 22:12:18:464] info: switchDictionary: switching dictionary to check spell from 'null' to 'en'
+[06/15/18, 22:12:18:465] info: SpellChecker::switchDictionary: SpellChecker enabled for language
+{
+  "language": "en"
+}
+[06/15/18, 22:21:20:679] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:21:342] info: Skipping request to provide hint content for channel for spellchecker
+{
+  "version": "V2"
+}
+[06/15/18, 22:21:21:437] info: Store: SELECT_CHANNEL D71AT5NQG
+[06/15/18, 22:21:26:748] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:26:749] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:26:750] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:28:909] info: Store: FOREGROUND_APP
+[06/15/18, 22:21:29:079] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:29:917] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    24
+  ],
+  "size": [
+    2512,
+    1360
+  ]
+}
+[06/15/18, 22:21:31:590] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:31:592] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:31:593] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:33:625] info: Store: FOREGROUND_APP
+[06/15/18, 22:21:33:702] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:34:160] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:34:163] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:34:312] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:34:313] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:37:267] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    24
+  ],
+  "size": [
+    1244,
+    1360
+  ]
+}
+[06/15/18, 22:21:49:926] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    24
+  ],
+  "size": [
+    818,
+    1360
+  ]
+}
+[06/15/18, 22:21:50:204] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:51:031] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:51:033] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:54:402] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:54:500] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    24
+  ],
+  "size": [
+    1244,
+    668
+  ]
+}
+[06/15/18, 22:21:54:797] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:54:806] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:55:273] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:55:623] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:55:624] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:56:000] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:56:572] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:21:56:594] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:21:666] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:21:907] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:21:910] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:24:637] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:25:089] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:25:091] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:23:25:094] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:36:768] info: Store: FOREGROUND_APP
+[06/15/18, 22:25:36:985] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:37:774] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    951
+  ],
+  "size": [
+    2512,
+    433
+  ]
+}
+[06/15/18, 22:25:38:657] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:38:660] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:39:603] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:40:403] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:40:404] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:40:421] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:43:992] info: Store: FOREGROUND_APP
+[06/15/18, 22:25:44:042] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:45:136] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:45:139] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:45:938] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:46:173] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:46:175] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:46:966] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:47:464] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:47:467] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:47:589] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:47:592] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:50:347] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:50:717] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:50:717] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:50:718] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:51:610] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    0,
+    0
+  ],
+  "size": [
+    2560,
+    1440
+  ]
+}
+[06/15/18, 22:25:51:878] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:51:878] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:51:878] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:52:765] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    24,
+    951
+  ],
+  "size": [
+    2512,
+    433
+  ]
+}
+[06/15/18, 22:25:52:872] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:52:875] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:55:977] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:59:585] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:59:587] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:25:59:588] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:26:05:546] info: Store: FOREGROUND_APP
+[06/15/18, 22:26:05:602] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:26:10:823] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:26:10:825] info: Store: SET_FULL_SCREEN
+[06/15/18, 22:26:10:826] info: Store: SET_FULL_SCREEN

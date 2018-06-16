@@ -1,0 +1,53 @@
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+[colours]
+;bg =    #263238
+bg =    #1f000000
+maia =  #ffffffff
+;maia = #89ddff
+white = #24242424
+number = #ffffff
+grey =  #4982AAFF
+clear = #00
+
+[bar/top]
+monitor = Virtual-1
+width = 100%
+height=28
+radius = 0
+bottom = true
+background = ${colours.bg}
+foreground = ${colours.maia}
+font-0 = SF Pro Text:size=12
+;font-1 = Font Awesome 5:size=28
+module-margin = 0 
+modules-left   = i3 
+modules-center = clock
+modules-right  =  powermenu
+
+[module/clock]
+type = internal/date
+date = %a %b %d   %{F#ffffff}%I:%M
+
+[module/i3]
+type = internal/i3
+enable-scroll = false
+label-focused = %name%
+label-focused-foreground = ${colours.number}
+label-focused-background = ${colours.grey}
+label-focused-padding = 1
+label-unfocused = %name%
+label-unfocused-foreground = ${colours.number}
+label-unfocused-padding = 1
+label-visible = %name%
+label-visible-foreground = ${colours.number}
+label-visible-padding = 0
+label-urgent = %name%
+label-urgent-foreground = ${colours.number}
+label-urgent-padding = 0
+label-mode = %mode%
+label-mode-padding = 0
+label-mode-foreground = ${colours.number}
+label-mode-background = ${colours.number}

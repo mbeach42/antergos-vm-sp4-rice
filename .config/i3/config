@@ -1,0 +1,151 @@
+##########################################
+# i3 config file (v4)
+##########################################
+set $mod Mod4
+font SF Pro Text Display 16
+hide_edge_borders both
+gaps inner 15
+gaps outer 5
+for_window [class="^.*"] border pixel 5
+floating_modifier $mod
+
+# essential programs
+bindsym $mod+Return exec termite
+bindsym $mod+o exec termite
+bindsym $mod+d exec rofi -show drun
+bindsym $mod+w exec firefox
+bindsym $mod+Shift+q kill
+bindsym $mod+v split v
+bindsym $mod+Shift+p split h
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+s layout stacking
+bindsym $mod+Shift+w layout tabbed
+bindsym $mod+Shift+e layout toggle split
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+x exec i3lock --color 475263
+bindsym $mod+Shift+T exec --no-startup-id ~/.monitors.sh
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# switch to workspace
+bindsym $mod+1 workspace 1
+bindsym $mod+2 workspace 2
+bindsym $mod+3 workspace 3
+bindsym $mod+4 workspace 4
+bindsym $mod+5 workspace 5
+bindsym $mod+6 workspace 6
+bindsym $mod+7 workspace 7
+bindsym $mod+8 workspace 8
+bindsym $mod+9 workspace 9
+bindsym $mod+0 workspace 10
+bindsym $mod+Shift+1 move container to workspace 1
+bindsym $mod+Shift+2 move container to workspace 2
+bindsym $mod+Shift+3 move container to workspace 3
+bindsym $mod+Shift+4 move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+6 move container to workspace 6
+bindsym $mod+Shift+7 move container to workspace 7
+bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+9 move container to workspace 9
+bindsym $mod+Shift+0 move container to workspace 10
+
+# resize mode (you can also use the mouse for that)
+mode "resize" {
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+# colors and i3blocks bar
+#set $bg-color           #a81515
+set $bg-color            #108aa8
+set $inactive-bg-color   #2f343f
+set $text-color          #f3f4f5
+set $inactive-text-color #676e7d
+set $urgent-bg-color     #e53935
+set $indicator-color     #a0a0a0
+
+#                       border             background         text                 indicator
+client.focused          $bg-color          $bg-color          $text-color          $indicator-color
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color $indicator-color
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color $indicator-color
+client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color          $indicator-color
+
+
+#jbar {
+#        status_command i3blocks -ct ~/.config/i3/i3blocks.conf 
+#	font pango:monospace 22
+#	colors {
+#		background $inactive-bg-color
+#		separator #757575
+#		#                  border             background         text
+#		focused_workspace  $bg-color          $bg-color          $text-color
+#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+#		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+#	}
+#}
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Sreen brightness controls
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightnessh
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 #i
+
+
+# redirect sound to headphones
+bindsym $mod+m exec "/usr/local/bin/switch-audio-port"
+
+# Autostart apps
+#exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id dropbox &
+exec --no-startup-id "compton -cC"
+exec_always --no-startup-id dunst
+exec_always --no-startup-id feh --bg-scale ~/wallpaper/sky-mountain.jpg
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.monitors.sh
+
+
+assign [class="Slack"] 9
+assign [class="Mailspring"] 9
+assign [class="GitKraken"] 1
+assign [class="MineTime"] 9
+#for_window [class="gitKraken"] move container to workspace 1
+#for_window [class="mailspring"] move container to workspace 9
+#for_window [class="slack"] move container to workspace 9
+
+#exec_always redshift
+exec --no-startup-id i3-msg 'workspace 9; exec slack'
+exec --no-startup-id i3-msg 'workspace 9; exec minetime'
+exec --no-startup-id i3-msg 'workspace 9; exec mailspring'
+exec --no-startup-id i3-msg 'workspace 1; exec gitkraken'
+exec --no-startup-id i3-msg 'workspace 2; exec termite'
+exec --no-startup-id i3-msg 'workspace 2; exec firefox'

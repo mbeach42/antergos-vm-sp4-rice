@@ -1,0 +1,134 @@
+[06/15/18, 08:06:26:558] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/15/18, 08:06:26:559] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/15/18, 08:06:26:555      ║
+[06/15/18, 08:06:26:559] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/15/18, 08:06:26:776] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/15/18, 08:06:26:964] info: NetworkStatus: Waiting for network online…
+[06/15/18, 08:06:27:395] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/15/18, 08:06:27:417] info: Don't start background client because T70J8333P is selected team
+[06/15/18, 08:06:27:430] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/15/18, 08:06:27:467] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[06/15/18, 08:06:27:872] info: Store: SET_NETWORK_STATUS online
+[06/15/18, 08:06:32:084] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:06:32:089] info: Store: MAIN_WINDOW_SHOWN
+[06/15/18, 08:06:32:101] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:32:103] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:32:105] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:32:301] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:06:32:564] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:32:564] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:33:141] info: Store: SELECT_CHANNEL D70F6V6BA
+[06/15/18, 08:06:33:144] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[06/15/18, 08:06:33:146] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[06/15/18, 08:06:33:584] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:33:585] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:33:586] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:33:864] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:34:162] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_102.gif",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_132.gif",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_230.gif",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_34.gif",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_44.gif",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_68.gif",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_88.gif",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-09-08/238498482194_b1fd671c2dae558fbfa3_original.gif"
+  },
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:06:34:280] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:06:34:287] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:06:34:429] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T70J8333P",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[06/15/18, 08:06:34:549] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": "",
+  "teamId": "T70J8333P"
+}
+[06/15/18, 08:06:34:551] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T70J8333P",
+  "token": "xoxs-⋯"
+}
+[06/15/18, 08:06:34:860] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    864,
+    15
+  ],
+  "size": [
+    833,
+    1378
+  ]
+}
+[06/15/18, 08:06:39:740] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:39:758] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:372] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:373] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:375] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:376] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:384] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:385] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:386] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:388] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:389] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:391] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:392] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:393] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:394] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:556] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:559] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:48:563] info: Store: SET_FULL_SCREEN
+[06/15/18, 08:06:49:356] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    1290,
+    15
+  ],
+  "size": [
+    1255,
+    1378
+  ]
+}

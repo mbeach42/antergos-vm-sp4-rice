@@ -1,0 +1,146 @@
+[options]
+font = Monospace 12
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+clickable_url = true
+scrollback_lines = 15000
+search_wrap = true
+cursor_shape = block
+cursor_blink = on
+
+[hints]
+#jroundness = 2.0
+
+
+# special
+foreground      = #fdf6e3
+foreground_bold = #fdf6e3
+cursor          = #fdf6e3
+background      = #263238
+
+# black
+color0  = #2aa198
+color8  = #fdf6e3
+
+# red
+color1  = #c792ea
+color9  = #cb4b16
+
+# green
+color2  = #c3e88d
+color10 = #89ddff
+
+# yellow
+color3  = #ffcb6b
+color11 = #8ec07c
+
+# blue
+color4  = #82aaff
+color12 = #fbf1c7
+
+# magenta
+color5  = #89ddff
+color13 = #6c71c4
+
+# cyan
+color6  = #2aa198
+color14 = #ca0000
+
+# white
+color7  = #eee8d5
+color15 = #fdf6e3
+
+# Base16 Brewer
+# Author: Timothée Poisot (http://github.com/tpoisot)
+
+foreground      = #b7b8b9
+foreground_bold = #dadbdc
+cursor          = #dadbdc
+background      = #0c0d0e
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #0c0d0e
+color8  = #737475
+color7  = #b7b8b9
+color15 = #fcfdfe
+
+# Red
+color1  = #e31a1c
+color9  = #e31a1c
+
+# Green
+color2  = #31a354
+color10 = #31a354
+
+# Yellow
+color3  = #dca060
+color11 = #dca060
+
+# Blue
+color4  = #3182bd
+color12 = #3182bd
+
+# Purple
+color5  = #756bb1
+color13 = #756bb1
+
+# Teal
+color6  = #80b1d3
+color14 = #80b1d3
+
+# Extra colors
+color16 = #e6550d
+color17 = #b15928
+color18 = #2e2f30
+[colors]
+# Base16 One Light
+# Author: Daniel Pfeifer (http://github.com/purpleKarrot)
+
+foreground          = #383A42
+foreground_bold     = #202227
+cursor              = #202227
+cursor_foreground   = #FAFAFA
+background          = rgba(250, 250, 250, 1) 
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #FAFAFA
+color8  = #A0A1A7
+color7  = #383A42
+color15 = #090A0b
+
+# Red
+color1  = #CA1243
+color9  = #CA1243
+
+# Green
+color2  = #50A14F
+color10 = #50A14F
+
+# Yellow
+color3  = #C18401
+color11 = #C18401
+
+# Blue
+color4  = #4078F2
+color12 = #4078F2
+
+# Purple
+color5  = #A626A4
+color13 = #A626A4
+
+# Teal
+color6  = #0184BC
+color14 = #0184BC
+
+# Extra colors
+color16 = #D75F00
+color17 = #986801
+color18 = #F0F0F1
+color19 = #E5E5E6
+color20 = #696C77
+color21 = #202227

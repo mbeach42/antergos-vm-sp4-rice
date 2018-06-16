@@ -1,0 +1,909 @@
+info: ╔══════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.1.0, linux 4.15.14-1-ARCH on x64 at 04/04/18, 18:01:44:382      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Apr-4 18:01:50.189 [BOOT] booted! pri:0 version:1522879032 start_ms:1522879307197 (2992ms ago)
+info: Apr-4 18:01:50.194 [BOOT] Starting incremental boot (early)
+info: Apr-4 18:01:50.667 [T70J8333P] SOCKET-MANAGER: Changing from never_connected to prov_connect
+info: Apr-4 18:01:50.669 [T70J8333P] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Apr-4 18:01:50.670 [T70J8333P] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Apr-4 18:01:50.671 [T70J8333P] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Apr-4 18:01:50.800 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:01:51.314 [T70J8333P] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Apr-4 18:01:51.314 [T70J8333P] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Apr-4 18:01:51.317 [INFO] Got start data from Socket Manager; hydrating it
+warn: 2018/4/4 18:01:51.338  Received a reply to a message we have no record of sending (reply_to = 17547, type = message)
+info: Apr-4 18:01:51.810 [BOOT] Finalizing incremental boot
+info: Apr-4 18:01:52.173 [UNREAD-COUNTS] Counting unreads in C70BYG935 because (49) timestamps added
+warn: Apr-4 18:01:52.178 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Apr-4 18:01:52.223 [BOOT] Completed incremental boot
+info: Apr-4 18:01:52.346 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Apr-4 18:01:52.347 [T70J8333P] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Apr-4 18:01:52.347 [T70J8333P] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Apr-4 18:01:52.347 [T70J8333P] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Apr-4 18:01:52.348 [T70J8333P] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Apr-4 18:01:52.349 [T70J8333P] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Apr-4 18:01:52.349 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-4 18:01:52.350 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Apr-4 18:01:52.352 [BOOT] Finished first boot 1698 ms after DOM ready
+info: Apr-4 18:01:52.499 [BOOT] First meaningful paint: 7763ms
+info: Apr-4 18:01:53.438 [CHECK-UNREADS] Checking unreads after fully booted
+info: Apr-4 18:01:53.445 [CHECK-UNREADS] Not marking C70BYG935 because attention not on chat (window_not_focused)
+info: Apr-4 18:01:53.539 [UNREAD-COUNTS] Completed users.counts processing
+info: Apr-4 18:01:53.938 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-4 18:01:54.290 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-4 18:01:54.290 [CHECK-UNREADS] Not marking C70BYG935 because attention not on chat (window_not_focused)
+info: Apr-4 18:14:37.750 [FOCUS-EVENT] Window focused
+info: Apr-4 18:14:37.787 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:14:37.788 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:14:38.960 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:14:39.320 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:15:39.993 [FOCUS-EVENT] Window focused
+info: Apr-4 18:15:40.580 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:15:40.590 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:15:41.229 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:15:41.237 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:15:41.819 [FOCUS-EVENT] Window focused
+info: Apr-4 18:15:41.850 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:15:41.851 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:15:42.550 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:15:42.553 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:18:01.183 [FOCUS-EVENT] Window focused
+info: Apr-4 18:18:01.223 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:18:01.223 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:18:01.697 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:18:01.742 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:18:03.479 [FOCUS-EVENT] Window focused
+info: Apr-4 18:18:03.508 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:18:03.509 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:18:04.663 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:18:04.665 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:18:33.243 [FOCUS-EVENT] Window focused
+info: Apr-4 18:18:33.304 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:18:33.304 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:18:34.329 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:18:34.409 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:21:18.500 [FOCUS-EVENT] Window focused
+info: Apr-4 18:21:18.120 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:21:18.120 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:21:18.667 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:21:18.685 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:23:00.124 [FOCUS-EVENT] Window focused
+info: Apr-4 18:23:00.171 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:23:00.172 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:23:00.924 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:23:00.935 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:42:27.981 [FOCUS-EVENT] Window focused
+info: Apr-4 18:42:28.520 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:42:28.520 [CHECK-UNREADS] Not marking C70BYG935 because last_read >= latest && channel is read
+info: Apr-4 18:42:30.388 [ACTION:CHANNEL-SIDEBAR] Selected D70F6V6BA
+info: Apr-4 18:42:30.531 [MESSAGE-LIST] Switching channels: D70F6V6BA timestamps: 0
+info: Apr-4 18:42:30.536 [MESSAGE-LIST] requestAround channelId: D70F6V6BA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-4 18:42:30.538 [HISTORY-FETCH] Fetching history for message pane: D70F6V6BA
+info: Apr-4 18:42:30.555 [MESSAGE-LIST] requestAround channelId: D70F6V6BA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-4 18:42:30.557 [MESSAGE-LIST] requestAround channelId: D70F6V6BA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-4 18:42:30.717 [MESSAGE-LIST] requestAround channelId: D70F6V6BA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-4 18:42:30.718 [MESSAGE-LIST] requestAround channelId: D70F6V6BA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-4 18:42:30.719 [MESSAGE-LIST] requestAround channelId: D70F6V6BA isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-4 18:42:30.721 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Apr-4 18:42:30.884 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (40) timestamps added
+info: Apr-4 18:42:30.900 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 40
+info: Apr-4 18:42:31.180 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-4 18:42:31.586 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-4 18:42:31.587 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:42:35.369 [ACTION:MESSAGE] Sent a message of length 8 to D70F6V6BA
+info: Apr-4 18:42:35.373 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 18:42:35.373 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 18:42:35.374 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:42:35.496 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because message removed
+info: Apr-4 18:42:35.502 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 18:42:35.503 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 18:42:35.503 [CHECK-UNREADS] Marking D70F6V6BA because unread line is visible
+info: Apr-4 18:42:35.517 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because last_read changed to 1522881755.000159
+info: Apr-4 18:42:37.151 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:42:37.330 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:42:46.782 [FOCUS-EVENT] Window focused
+info: Apr-4 18:42:46.864 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:42:46.897 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:42:46.898 [CHECK-UNREADS] Not marking D70F6V6BA because attention not on chat (window_not_focused)
+info: Apr-4 18:42:46.910 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:42:49.399 [FOCUS-EVENT] Window focused
+info: Apr-4 18:42:49.450 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:42:49.451 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:42:53.263 [ACTION:MESSAGE] Sent a message of length 11 to D70F6V6BA
+info: Apr-4 18:42:53.268 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 18:42:53.269 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 18:42:53.271 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:42:53.487 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because message removed
+info: Apr-4 18:42:53.487 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 18:42:53.487 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 18:42:53.487 [CHECK-UNREADS] Marking D70F6V6BA because unread line is visible
+info: Apr-4 18:42:53.507 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because last_read changed to 1522881773.000119
+info: Apr-4 18:42:53.853 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:42:53.870 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:43:01.731 [FOCUS-EVENT] Window focused
+info: Apr-4 18:43:01.800 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:43:01.801 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:43:06.408 [ACTION:MESSAGE] Sent a message of length 27 to D70F6V6BA
+info: Apr-4 18:43:06.411 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 18:43:06.411 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 18:43:06.412 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:43:06.591 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because message removed
+info: Apr-4 18:43:06.591 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 18:43:06.605 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 18:43:06.610 [CHECK-UNREADS] Marking D70F6V6BA because unread line is visible
+info: Apr-4 18:43:06.612 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because last_read changed to 1522881786.000184
+info: Apr-4 18:43:07.930 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:43:07.102 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:55:38.861 [FOCUS-EVENT] Window focused
+info: Apr-4 18:55:38.923 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 18:55:38.925 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 18:55:39.808 [FOCUS-EVENT] Window blurred
+info: Apr-4 18:55:39.810 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:27.470 [FOCUS-EVENT] Window focused
+info: Apr-4 19:08:27.496 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:27.499 [FOCUS-EVENT] Window focused
+info: Apr-4 19:08:27.549 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:08:27.550 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:08:27.551 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:08:27.552 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:08:29.459 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:29.465 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:36.816 [FOCUS-EVENT] Window focused
+info: Apr-4 19:08:36.850 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:08:36.850 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:08:39.558 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:39.582 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:43.310 [FOCUS-EVENT] Window focused
+info: Apr-4 19:08:43.630 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:08:43.660 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:08:46.300 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:46.100 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:48.930 [FOCUS-EVENT] Window focused
+info: Apr-4 19:08:48.991 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:08:48.992 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:08:50.850 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:50.857 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:08:54.530 [FOCUS-EVENT] Window focused
+info: Apr-4 19:08:54.597 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:08:54.597 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:09:01.318 [ACTION:MESSAGE] Sent a message of length 23 to D70F6V6BA
+info: Apr-4 19:09:01.320 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 19:09:01.321 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 19:09:01.321 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:09:01.461 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because message removed
+info: Apr-4 19:09:01.461 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (1) timestamps added
+info: Apr-4 19:09:01.461 [UNREAD-COUNTS] Checking unreads in D70F6V6BA after a new message
+info: Apr-4 19:09:01.461 [CHECK-UNREADS] Marking D70F6V6BA because unread line is visible
+info: Apr-4 19:09:01.463 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because last_read changed to 1522883341.000125
+info: Apr-4 19:09:05.330 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:09:05.334 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:11:06.547 [FOCUS-EVENT] Window focused
+info: Apr-4 19:11:06.649 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:11:06.651 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-4 19:11:07.533 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:11:07.564 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:12:54.769 [FOCUS-EVENT] Window focused
+info: Apr-4 19:12:54.779 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:12:54.972 [FOCUS-EVENT] Window focused
+info: Apr-4 19:12:54.981 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:12:55.110 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:12:55.120 [CHECK-UNREADS] Not marking D70F6V6BA because attention not on chat (window_not_focused)
+info: Apr-4 19:12:55.130 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-4 19:12:55.130 [CHECK-UNREADS] Not marking D70F6V6BA because attention not on chat (window_not_focused)
+info: Apr-4 19:12:55.107 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:12:55.109 [FOCUS-EVENT] Window blurred
+info: Apr-4 19:13:32.118 [T70J8333P] SOCKET-MANAGER: Changing from connected to error
+info: Apr-4 19:13:32.121 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-4 19:13:32.123 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/4 19:13:32.126  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.6251863bcba51a18f7c7.min.js:1:68470)
+at https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1505185
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1719527)
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1721448)
+at s (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1645314)
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1721822)
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1715437)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.c0dc38f60627b10d1857.min.js:1:928037)
+at E (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1771336)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1773027)
+info: Apr-4 19:13:32.136 [INFO] Hiding the reconnection banner because we are disconnected
+info: Apr-4 19:13:32.162 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-4 19:13:32.163 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-4 19:14:02.164 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-4 19:14:02.164 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-4 19:14:02.165 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-4 19:14:02.166 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/4 19:14:02.167  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.6251863bcba51a18f7c7.min.js:1:68470)
+at https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1505185
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1719527)
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1721448)
+at https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1723661
+info: Apr-4 19:14:02.209 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-4 19:14:02.210 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-4 19:14:32.212 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-4 19:14:32.213 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-4 19:14:32.214 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-4 19:14:32.215 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/4 19:14:32.216  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.6251863bcba51a18f7c7.min.js:1:68470)
+at https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1505185
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1719527)
+at e (https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1721448)
+at https://a.slack-edge.com/bv1-1/modern.vendor.97556283425502435f63.min.js:1:1723661
+info: Apr-4 19:14:32.242 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-4 19:14:32.243 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-4 19:15:01.356 [INFO] Internet connection has been re-established after 1 retry attempts; offline for NaN seconds
+info: Apr-4 19:15:01.358 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Apr-4 19:15:01.358 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Apr-4 19:15:01.360 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Apr-4 19:15:01.360 [T70J8333P] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Apr-4 19:15:01.361 [T70J8333P] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Apr-4 19:15:01.361 [T70J8333P] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Apr-4 19:15:01.779 [T70J8333P] SOCKET-MANAGER: Changing from checking_fast_reconnect to connecting
+info: Apr-4 19:15:01.780 [T70J8333P] SOCKET-MANAGER: will stay in connecting state for up to 20000 ms
+info: Apr-4 19:15:02.693 [T70J8333P] SOCKET-MANAGER: Changing from connecting to connected
+info: Apr-4 19:15:02.694 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-4 19:15:02.702 [T70J8333P] EVENTLOG fr=true, lc=false, lt=1522883342.000009
+warn: 2018/4/4 19:15:02.730  Received a reply to a message we have no record of sending (reply_to = 16874, type = message)
+info: ╔══════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.1.0, linux 4.15.14-1-ARCH on x64 at 04/05/18, 11:10:38:422      ║
+info: ╚══════════════════════════════════════════════════════════════════════════════╝
+error: Calls failed to load, bailing
+info: Apr-5 11:10:48.697 [BOOT] booted! pri:0 version:1522937592 start_ms:1522941045530 (3167ms ago)
+info: Apr-5 11:10:48.700 [BOOT] Starting incremental boot (early)
+info: Apr-5 11:10:49.562 [T70J8333P] SOCKET-MANAGER: Changing from never_connected to prov_connect
+info: Apr-5 11:10:49.563 [T70J8333P] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Apr-5 11:10:49.567 [T70J8333P] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Apr-5 11:10:49.567 [T70J8333P] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Apr-5 11:10:49.627 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:10:50.460 [BOOT] Finalizing incremental boot
+info: Apr-5 11:10:50.467 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Apr-5 11:10:50.703 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because (44) timestamps added
+info: Apr-5 11:10:51.230 [BOOT] First meaningful paint: 11271ms
+info: Apr-5 11:10:51.678 [T70J8333P] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Apr-5 11:10:51.691 [T70J8333P] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Apr-5 11:10:51.692 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Apr-5 11:10:51.697 [INFO] Got start data from Socket Manager; hydrating it
+warn: Apr-5 11:10:51.736 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Apr-5 11:10:52.300 [BOOT] Completed incremental boot
+info: Apr-5 11:10:52.140 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Apr-5 11:10:52.141 [T70J8333P] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Apr-5 11:10:52.141 [T70J8333P] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Apr-5 11:10:52.142 [T70J8333P] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Apr-5 11:10:52.142 [T70J8333P] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Apr-5 11:10:52.143 [T70J8333P] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Apr-5 11:10:52.143 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-5 11:10:52.144 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Apr-5 11:10:52.145 [BOOT] Finished first boot 2610 ms after DOM ready
+info: Apr-5 11:10:52.189 [INFO] Team pref "display_email_addresses" -> true
+info: Apr-5 11:10:52.190 [INFO] display_email_addresses check: pref enabled, but 0 email fields found in TS.model.members.
+info: Apr-5 11:10:52.295 [FOCUS-EVENT] Window focused
+info: Apr-5 11:10:52.349 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-5 11:10:52.409 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:10:52.411 [CHECK-UNREADS] Marking D70F6V6BA because unread line is visible
+info: Apr-5 11:10:52.415 [UNREAD-COUNTS] Counting unreads in D70F6V6BA because last_read changed to 1522941050.000000
+info: Apr-5 11:10:52.445 [CHECK-UNREADS] Checking unreads after fully booted
+info: Apr-5 11:10:52.446 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-5 11:10:52.475 [UNREAD-COUNTS] Completed users.counts processing
+info: Apr-5 11:10:52.849 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-5 11:10:52.850 [CHECK-UNREADS] Not marking D70F6V6BA because last_read >= latest && channel is read
+info: Apr-5 11:11:00.644 [ACTION:CHANNEL-SIDEBAR] Selected D70K3N1L1
+info: Apr-5 11:11:00.702 [MESSAGE-LIST] Switching channels: D70K3N1L1 timestamps: 0
+info: Apr-5 11:11:00.703 [MESSAGE-LIST] requestAround channelId: D70K3N1L1 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:11:00.704 [HISTORY-FETCH] Fetching history for message pane: D70K3N1L1
+info: Apr-5 11:11:00.709 [MESSAGE-LIST] requestAround channelId: D70K3N1L1 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:11:00.710 [MESSAGE-LIST] requestAround channelId: D70K3N1L1 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:11:00.740 [MESSAGE-LIST] requestAround channelId: D70K3N1L1 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:11:00.742 [MESSAGE-LIST] requestAround channelId: D70K3N1L1 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:11:00.742 [MESSAGE-LIST] requestAround channelId: D70K3N1L1 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:11:00.744 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Apr-5 11:11:00.839 [UNREAD-COUNTS] Counting unreads in D70K3N1L1 because (42) timestamps added
+info: Apr-5 11:11:00.846 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Apr-5 11:11:00.923 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-5 11:11:01.439 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-5 11:11:01.440 [CHECK-UNREADS] Not marking D70K3N1L1 because last_read >= latest && channel is read
+info: Apr-5 11:11:04.537 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:11:04.547 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:18:56.649 [FOCUS-EVENT] Window focused
+info: Apr-5 11:18:56.705 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:18:56.705 [CHECK-UNREADS] Not marking D70K3N1L1 because last_read >= latest && channel is read
+info: Apr-5 11:18:58.400 [ACTION:CHANNEL-SIDEBAR] Selected D71TMRGR2
+info: Apr-5 11:18:58.410 [MESSAGE-LIST] Switching channels: D71TMRGR2 timestamps: 0
+info: Apr-5 11:18:58.410 [MESSAGE-LIST] requestAround channelId: D71TMRGR2 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:18:58.410 [HISTORY-FETCH] Fetching history for message pane: D71TMRGR2
+info: Apr-5 11:18:58.480 [MESSAGE-LIST] requestAround channelId: D71TMRGR2 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:18:58.490 [MESSAGE-LIST] requestAround channelId: D71TMRGR2 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:18:58.810 [MESSAGE-LIST] requestAround channelId: D71TMRGR2 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:18:58.820 [MESSAGE-LIST] requestAround channelId: D71TMRGR2 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:18:58.820 [MESSAGE-LIST] requestAround channelId: D71TMRGR2 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 11:18:58.830 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Apr-5 11:18:58.365 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 34
+info: Apr-5 11:18:58.441 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-5 11:18:58.955 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-5 11:18:58.958 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:19:03.587 [ACTION:MESSAGE] Sent a message of length 11 to D71TMRGR2
+info: Apr-5 11:19:03.590 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:19:03.590 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:19:03.591 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:19:03.677 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because message removed
+info: Apr-5 11:19:03.677 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:19:03.677 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:19:03.678 [CHECK-UNREADS] Marking D71TMRGR2 because unread line is visible
+info: Apr-5 11:19:03.680 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because last_read changed to 1522941543.000569
+info: Apr-5 11:19:06.163 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:19:06.231 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:21:15.790 [FOCUS-EVENT] Window focused
+info: Apr-5 11:21:15.882 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:21:15.883 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:21:17.494 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:21:17.558 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:21:17.999 [FOCUS-EVENT] Window focused
+info: Apr-5 11:21:18.100 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:21:18.101 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:21:18.456 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:21:18.524 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:23:07.500 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:23:07.800 [UNREAD-COUNTS] Updated unread_cnt for D71TMRGR2: 1
+info: Apr-5 11:23:07.120 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:23:07.120 [CHECK-UNREADS] Not marking D71TMRGR2 because attention not on chat (window_not_focused)
+info: Apr-5 11:23:09.939 [FOCUS-EVENT] Window focused
+info: Apr-5 11:23:09.993 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:23:09.994 [CHECK-UNREADS] Marking D71TMRGR2 because unread line is visible
+info: Apr-5 11:23:10.200 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because last_read changed to 1522941786.000903
+info: Apr-5 11:23:10.400 [UNREAD-COUNTS] Updated unread_cnt for D71TMRGR2: 0
+info: Apr-5 11:23:10.860 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:23:10.860 [UNREAD-COUNTS] Updated unread_cnt for D71TMRGR2: 1
+info: Apr-5 11:23:10.864 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:23:10.864 [CHECK-UNREADS] Marking D71TMRGR2 because unread line is visible
+info: Apr-5 11:23:10.868 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because last_read changed to 1522941790.000801
+info: Apr-5 11:23:10.868 [UNREAD-COUNTS] Updated unread_cnt for D71TMRGR2: 0
+info: Apr-5 11:23:13.328 [ACTION:MESSAGE] Sent a message of length 4 to D71TMRGR2
+info: Apr-5 11:23:13.331 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:23:13.331 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:23:13.332 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:23:13.447 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because message removed
+info: Apr-5 11:23:13.447 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:23:13.448 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:23:13.448 [CHECK-UNREADS] Marking D71TMRGR2 because unread line is visible
+info: Apr-5 11:23:13.450 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because last_read changed to 1522941793.000317
+info: Apr-5 11:23:25.920 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:23:25.983 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:23:30.345 [FOCUS-EVENT] Window focused
+info: Apr-5 11:23:30.414 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:23:30.414 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:23:42.879 [ACTION:MESSAGE] Sent a message of length 51 to D71TMRGR2
+info: Apr-5 11:23:42.883 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:23:42.883 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:23:42.883 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:23:42.994 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because message removed
+info: Apr-5 11:23:42.995 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because (1) timestamps added
+info: Apr-5 11:23:42.996 [UNREAD-COUNTS] Checking unreads in D71TMRGR2 after a new message
+info: Apr-5 11:23:42.996 [CHECK-UNREADS] Marking D71TMRGR2 because unread line is visible
+info: Apr-5 11:23:42.998 [UNREAD-COUNTS] Counting unreads in D71TMRGR2 because last_read changed to 1522941822.000807
+info: Apr-5 11:23:45.392 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:23:45.401 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:26:16.428 [FOCUS-EVENT] Window focused
+info: Apr-5 11:26:16.530 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:26:16.530 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:26:17.203 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:26:17.216 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:27:48.464 [FOCUS-EVENT] Window focused
+info: Apr-5 11:27:48.553 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:27:48.555 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:27:48.930 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:27:49.900 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:27:49.392 [FOCUS-EVENT] Window focused
+info: Apr-5 11:27:49.498 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:27:49.500 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:27:49.876 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:27:49.915 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:29:34.860 [FOCUS-EVENT] Window focused
+info: Apr-5 11:29:34.133 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:29:34.133 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:29:34.468 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:29:34.552 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:38:11.872 [FOCUS-EVENT] Window focused
+info: Apr-5 11:38:11.938 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:38:11.939 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:38:12.143 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:38:12.204 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:38:12.952 [FOCUS-EVENT] Window focused
+info: Apr-5 11:38:13.100 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:38:13.100 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:38:13.285 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:38:13.356 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:40:15.840 [FOCUS-EVENT] Window focused
+info: Apr-5 11:40:15.149 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:40:15.150 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:40:15.757 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:40:15.761 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:40:46.274 [FOCUS-EVENT] Window focused
+info: Apr-5 11:40:46.346 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:40:46.347 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:40:46.697 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:40:46.743 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:41:00.900 [FOCUS-EVENT] Window focused
+info: Apr-5 11:41:00.961 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:41:00.961 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:41:01.752 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:41:01.755 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:41:33.557 [FOCUS-EVENT] Window focused
+info: Apr-5 11:41:33.609 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:41:33.610 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:41:34.297 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:41:34.307 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:42:00.719 [FOCUS-EVENT] Window focused
+info: Apr-5 11:42:00.779 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:42:00.779 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:42:03.502 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:42:03.597 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:43:49.110 [FOCUS-EVENT] Window focused
+info: Apr-5 11:43:49.810 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:43:49.830 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:43:49.441 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:43:49.499 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:46:17.322 [FOCUS-EVENT] Window focused
+info: Apr-5 11:46:17.386 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 11:46:17.386 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 11:46:18.710 [FOCUS-EVENT] Window blurred
+info: Apr-5 11:46:18.750 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:00:14.511 [FOCUS-EVENT] Window focused
+info: Apr-5 12:00:14.587 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:00:14.587 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:00:15.548 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:00:15.554 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:01:09.752 [FOCUS-EVENT] Window focused
+info: Apr-5 12:01:09.831 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:01:09.831 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:01:10.740 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:01:10.127 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:01:33.234 [FOCUS-EVENT] Window focused
+info: Apr-5 12:01:33.278 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:01:33.278 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:01:33.751 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:01:33.804 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:01:57.867 [FOCUS-EVENT] Window focused
+info: Apr-5 12:01:57.927 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:01:57.927 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:01:58.499 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:01:58.551 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:02:53.454 [FOCUS-EVENT] Window focused
+info: Apr-5 12:02:53.511 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:02:53.512 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:02:55.230 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:02:55.233 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:03:36.807 [FOCUS-EVENT] Window focused
+info: Apr-5 12:03:36.859 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:03:36.860 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:03:37.442 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:03:37.447 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:04:59.904 [FOCUS-EVENT] Window focused
+info: Apr-5 12:04:59.959 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:04:59.960 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:05:00.720 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:05:00.779 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:05:18.944 [FOCUS-EVENT] Window focused
+info: Apr-5 12:05:18.988 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:05:18.989 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:05:19.617 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:05:19.620 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:06:01.560 [FOCUS-EVENT] Window focused
+info: Apr-5 12:06:01.626 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:06:01.627 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:06:02.325 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:06:02.370 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:06:56.737 [FOCUS-EVENT] Window focused
+info: Apr-5 12:06:56.785 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:06:56.785 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:06:58.396 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:06:58.463 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:06:58.880 [FOCUS-EVENT] Window focused
+info: Apr-5 12:06:58.924 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:06:58.925 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:06:59.313 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:06:59.358 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:07:02.962 [FOCUS-EVENT] Window focused
+info: Apr-5 12:07:03.450 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:07:03.460 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:07:05.168 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:07:05.181 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:09:07.130 [FOCUS-EVENT] Window focused
+info: Apr-5 12:09:07.770 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:09:07.770 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:09:07.649 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:09:07.735 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:09:31.792 [FOCUS-EVENT] Window focused
+info: Apr-5 12:09:31.836 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:09:31.837 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:09:32.291 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:09:32.347 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:13:46.863 [FOCUS-EVENT] Window focused
+info: Apr-5 12:13:46.918 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:13:46.919 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:13:47.952 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:13:48.230 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:13:48.484 [FOCUS-EVENT] Window focused
+info: Apr-5 12:13:48.552 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:13:48.553 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:13:48.968 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:13:48.977 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:17:30.944 [FOCUS-EVENT] Window focused
+info: Apr-5 12:17:30.998 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:17:30.999 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:17:31.832 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:17:31.838 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:25:22.388 [T70J8333P] SOCKET-MANAGER: Changing from connected to error
+info: Apr-5 12:25:22.390 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 12:25:22.391 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 12:25:22.395  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at s (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1651010)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727540)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1721155)
+at e.<anonymous> (https://cfr.slack-edge.com/bv1-1/rollup-core_required_libs.c0dc38f60627b10d1857.min.js:1:928037)
+at E (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1777054)
+at WebSocket._socket.onclose (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1778745)
+info: Apr-5 12:25:22.401 [INFO] Hiding the reconnection banner because we are disconnected
+info: Apr-5 12:25:22.468 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 12:25:22.469 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 12:25:22.802 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Apr-5 12:25:22.803 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Apr-5 12:25:22.804 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Apr-5 12:25:22.804 [T70J8333P] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Apr-5 12:25:22.805 [T70J8333P] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Apr-5 12:25:22.805 [T70J8333P] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Apr-5 12:25:22.933 [T70J8333P] SOCKET-MANAGER: Changing from checking_fast_reconnect to connecting
+info: Apr-5 12:25:22.933 [T70J8333P] SOCKET-MANAGER: will stay in connecting state for up to 20000 ms
+info: Apr-5 12:25:23.132 [T70J8333P] SOCKET-MANAGER: Changing from connecting to connected
+info: Apr-5 12:25:23.132 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-5 12:25:23.134 [T70J8333P] EVENTLOG fr=true, lc=false, lt=1522945117.000184
+warn: 2018/4/5 12:25:23.158  Received a reply to a message we have no record of sending (reply_to = 16495, type = message)
+info: Apr-5 12:33:22.626 [T70J8333P] SOCKET-MANAGER: Changing from connected to error
+info: Apr-5 12:33:22.627 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 12:33:22.629 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 12:33:22.630  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at s (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1651010)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727540)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1721155)
+at e.<anonymous> (https://cfr.slack-edge.com/bv1-1/rollup-core_required_libs.c0dc38f60627b10d1857.min.js:1:928037)
+at E (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1777054)
+at WebSocket._socket.onclose (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1778745)
+info: Apr-5 12:33:22.634 [INFO] Hiding the reconnection banner because we are disconnected
+info: Apr-5 12:33:22.715 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 12:33:22.715 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 12:33:23.380 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Apr-5 12:33:23.390 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Apr-5 12:33:23.400 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Apr-5 12:33:23.410 [T70J8333P] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Apr-5 12:33:23.420 [T70J8333P] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Apr-5 12:33:23.420 [T70J8333P] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Apr-5 12:33:23.179 [T70J8333P] SOCKET-MANAGER: Changing from checking_fast_reconnect to connecting
+info: Apr-5 12:33:23.179 [T70J8333P] SOCKET-MANAGER: will stay in connecting state for up to 20000 ms
+info: Apr-5 12:33:23.388 [T70J8333P] SOCKET-MANAGER: Changing from connecting to connected
+info: Apr-5 12:33:23.389 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-5 12:33:23.391 [T70J8333P] EVENTLOG fr=true, lc=false, lt=1522945117.000184
+warn: 2018/4/5 12:33:23.426  Received a reply to a message we have no record of sending (reply_to = 16495, type = message)
+info: Apr-5 12:36:37.402 [FOCUS-EVENT] Window focused
+info: Apr-5 12:36:37.491 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:36:37.491 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:36:38.100 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:36:38.500 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:40:13.892 [FOCUS-EVENT] Window focused
+info: Apr-5 12:40:13.930 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:40:13.931 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:40:14.644 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:40:14.648 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:44:01.510 [FOCUS-EVENT] Window focused
+info: Apr-5 12:44:01.572 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:44:01.572 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:44:01.957 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:44:02.120 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:50:11.318 [FOCUS-EVENT] Window focused
+info: Apr-5 12:50:11.391 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:50:11.392 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:50:11.959 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:50:12.500 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:57:27.310 [FOCUS-EVENT] Window focused
+info: Apr-5 12:57:27.810 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 12:57:27.830 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 12:57:29.830 [FOCUS-EVENT] Window blurred
+info: Apr-5 12:57:29.910 [FOCUS-EVENT] Window blurred
+info: Apr-5 13:07:28.731 [FOCUS-EVENT] Window focused
+info: Apr-5 13:07:28.813 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 13:07:28.814 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 13:07:29.188 [FOCUS-EVENT] Window blurred
+info: Apr-5 13:07:29.239 [FOCUS-EVENT] Window blurred
+info: Apr-5 13:07:29.926 [FOCUS-EVENT] Window focused
+info: Apr-5 13:07:30.200 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 13:07:30.300 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 13:07:30.320 [FOCUS-EVENT] Window blurred
+info: Apr-5 13:07:30.322 [FOCUS-EVENT] Window blurred
+info: Apr-5 13:09:05.311 [UNREAD-COUNTS] Updated unread_cnt for D71935Z7F: 1
+info: Apr-5 13:09:05.315 [UNREAD-COUNTS] Fetching history for unread counting: D71935Z7F, waiting 2858 ms
+info: Apr-5 13:09:08.176 [HISTORY-FETCH] Fetching history for unread counting: D71935Z7F
+info: Apr-5 13:29:05.385 [FOCUS-EVENT] Window focused
+info: Apr-5 13:29:05.428 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 13:29:05.428 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 13:29:07.268 [FOCUS-EVENT] Window blurred
+info: Apr-5 13:29:07.316 [FOCUS-EVENT] Window blurred
+info: Apr-5 15:00:13.895 [FOCUS-EVENT] Window focused
+info: Apr-5 15:00:13.945 [CHECK-UNREADS] Checking unreads after window became focused
+info: Apr-5 15:00:13.946 [CHECK-UNREADS] Not marking D71TMRGR2 because last_read >= latest && channel is read
+info: Apr-5 15:00:16.443 [ACTION:CHANNEL-SIDEBAR] Selected D71935Z7F
+info: Apr-5 15:00:16.486 [MESSAGE-LIST] Switching channels: D71935Z7F timestamps: 42
+info: Apr-5 15:00:16.542 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-5 15:00:16.946 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-5 15:00:16.947 [CHECK-UNREADS] Marking D71935Z7F because unread line is visible
+info: Apr-5 15:00:16.949 [UNREAD-COUNTS] Counting unreads in D71935Z7F because last_read changed to 1522948145.000198
+info: Apr-5 15:00:16.949 [UNREAD-COUNTS] Updated unread_cnt for D71935Z7F: 0
+info: Apr-5 15:00:17.439 [ACTION:CHANNEL-SIDEBAR] Selected D71GQLQ1K
+info: Apr-5 15:00:17.495 [MESSAGE-LIST] Switching channels: D71GQLQ1K timestamps: 0
+info: Apr-5 15:00:17.496 [MESSAGE-LIST] requestAround channelId: D71GQLQ1K isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 15:00:17.496 [HISTORY-FETCH] Fetching history for message pane: D71GQLQ1K
+info: Apr-5 15:00:17.503 [MESSAGE-LIST] requestAround channelId: D71GQLQ1K isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 15:00:17.503 [MESSAGE-LIST] requestAround channelId: D71GQLQ1K isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 15:00:17.523 [MESSAGE-LIST] requestAround channelId: D71GQLQ1K isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 15:00:17.524 [MESSAGE-LIST] requestAround channelId: D71GQLQ1K isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 15:00:17.525 [MESSAGE-LIST] requestAround channelId: D71GQLQ1K isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Apr-5 15:00:17.526 [MESSAGE-LIST] componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Apr-5 15:00:17.824 [UNREAD-COUNTS] Counting unreads in D71GQLQ1K because (42) timestamps added
+info: Apr-5 15:00:17.834 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 42
+info: Apr-5 15:00:17.925 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-5 15:00:18.439 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-5 15:00:18.439 [CHECK-UNREADS] Not marking D71GQLQ1K because last_read >= latest && channel is read
+info: Apr-5 15:00:19.602 [ACTION:CHANNEL-SIDEBAR] Selected D71935Z7F
+info: Apr-5 15:00:19.659 [MESSAGE-LIST] Switching channels: D71935Z7F timestamps: 42
+info: Apr-5 15:00:19.730 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Apr-5 15:00:20.131 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Apr-5 15:00:20.132 [CHECK-UNREADS] Not marking D71935Z7F because last_read >= latest && channel is read
+info: Apr-5 15:00:27.294 [ACTION:MESSAGE] Sent a message of length 18 to D71935Z7F
+info: Apr-5 15:00:27.296 [UNREAD-COUNTS] Counting unreads in D71935Z7F because (1) timestamps added
+info: Apr-5 15:00:27.296 [UNREAD-COUNTS] Checking unreads in D71935Z7F after a new message
+info: Apr-5 15:00:27.297 [CHECK-UNREADS] Not marking D71935Z7F because last_read >= latest && channel is read
+info: Apr-5 15:00:27.367 [UNREAD-COUNTS] Counting unreads in D71935Z7F because message removed
+info: Apr-5 15:00:27.368 [UNREAD-COUNTS] Counting unreads in D71935Z7F because (1) timestamps added
+info: Apr-5 15:00:27.369 [UNREAD-COUNTS] Checking unreads in D71935Z7F after a new message
+info: Apr-5 15:00:27.370 [CHECK-UNREADS] Marking D71935Z7F because unread line is visible
+info: Apr-5 15:00:27.378 [UNREAD-COUNTS] Counting unreads in D71935Z7F because last_read changed to 1522954827.000239
+info: Apr-5 15:00:31.304 [FOCUS-EVENT] Window blurred
+info: Apr-5 15:38:04.562 [UNREAD-COUNTS] Counting unreads in D71935Z7F because (1) timestamps added
+info: Apr-5 15:38:04.567 [UNREAD-COUNTS] Updated unread_cnt for D71935Z7F: 1
+info: Apr-5 15:38:04.573 [UNREAD-COUNTS] Checking unreads in D71935Z7F after a new message
+info: Apr-5 15:38:04.574 [CHECK-UNREADS] Not marking D71935Z7F because attention not on chat (window_not_focused)
+info: Apr-5 15:38:13.520 [UNREAD-COUNTS] Counting unreads in D71935Z7F because (1) timestamps added
+info: Apr-5 15:38:13.530 [UNREAD-COUNTS] Updated unread_cnt for D71935Z7F: 2
+info: Apr-5 15:38:13.560 [UNREAD-COUNTS] Checking unreads in D71935Z7F after a new message
+info: Apr-5 15:38:13.560 [CHECK-UNREADS] Not marking D71935Z7F because attention not on chat (window_not_focused)
+info: Apr-5 15:49:18.649 [T70J8333P] SOCKET-MANAGER: got offline event; moving to DISCONNECT as needed
+info: Apr-5 15:49:18.650 [T70J8333P] SOCKET-MANAGER: Changing from connected to disconnect
+info: Apr-5 15:49:18.651 [T70J8333P] SOCKET-MANAGER: will stay in disconnect state for up to 10000 ms
+info: Apr-5 15:49:18.652 [T70J8333P] SOCKET-MANAGER: Changing from disconnect to disconnecting
+info: Apr-5 15:49:18.652 [T70J8333P] SOCKET-MANAGER: will stay in disconnecting state for up to 10000 ms
+info: Apr-5 15:49:18.652 [T70J8333P] SOCKET-MANAGER: Changing from disconnecting to disconnected
+info: Apr-5 15:49:18.652 [T70J8333P] SOCKET-MANAGER: will stay in disconnected state for up to 10000 ms
+info: Apr-5 15:49:18.653 [T70J8333P] SOCKET-MANAGER: Disconnected! Online? false
+info: Apr-5 15:49:18.653 [T70J8333P] SOCKET-MANAGER: Changing from disconnected to wait_for_connectivity
+info: Apr-5 15:49:18.653 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:49:18.668 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Apr-5 15:49:19.952 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Apr-5 15:49:21.946 Internet connection still offline after 2 attempts (browser says it is still offline)
+warn: Apr-5 15:49:23.946 Internet connection still offline after 3 attempts (browser says it is still offline)
+warn: Apr-5 15:49:26.321 Internet connection still offline after 4 attempts (unable to reach API)
+info: Apr-5 15:49:48.948 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:49:48.949 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:49:48.951 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:49:48.952 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:49:48.953  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:49:49.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:49:49.948 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+warn: Apr-5 15:50:18.980 Internet connection still offline after 5 attempts (unable to reach API)
+info: Apr-5 15:50:20.946 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:50:20.947 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:50:20.948 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:50:20.949 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:50:20.952  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:50:21.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:50:21.948 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:50:52.946 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:50:52.947 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:50:52.951 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:50:52.952 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:50:52.953  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:50:53.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:50:53.948 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+warn: Apr-5 15:51:14.974 Internet connection still offline after 6 attempts (unable to reach API)
+info: Apr-5 15:51:24.948 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:51:24.949 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:51:24.949 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:51:24.950 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:51:24.951  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:51:25.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:51:25.947 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:51:56.946 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:51:56.947 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:51:56.948 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:51:56.948 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:51:56.950  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:51:57.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:51:57.947 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+warn: Apr-5 15:52:09.976 Internet connection still offline after 7 attempts (unable to reach API)
+info: Apr-5 15:52:28.947 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:52:28.947 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:52:28.948 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:52:28.949 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:52:28.950  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:52:29.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:52:29.947 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:53:00.947 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:53:00.948 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:53:00.948 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:53:00.949 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:53:00.951  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:53:01.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:53:01.947 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+warn: Apr-5 15:53:07.977 Internet connection still offline after 8 attempts (unable to reach API)
+info: Apr-5 15:53:32.947 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:53:32.947 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:53:32.948 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:53:32.949 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:53:32.951  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:53:33.947 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:53:33.948 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:54:04.947 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:54:04.948 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:54:04.949 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:54:04.950 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:54:04.951  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:54:05.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:54:05.947 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+warn: Apr-5 15:54:09.976 Internet connection still offline after 9 attempts (unable to reach API)
+info: Apr-5 15:54:36.946 [T70J8333P] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Apr-5 15:54:36.947 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Apr-5 15:54:36.953 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:54:36.953 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:54:36.954  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1729379
+info: Apr-5 15:54:37.947 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:54:37.948 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:54:56.562 [T70J8333P] SOCKET-MANAGER: got offline event; moving to DISCONNECT as needed
+warn: Apr-5 15:55:02.579 Internet connection still offline after 10 attempts (unable to reach API)
+info: Apr-5 15:55:04.830 [INFO] Internet connection has been re-established after 11 retry attempts; offline for NaN seconds
+info: Apr-5 15:55:04.930 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Apr-5 15:55:04.950 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Apr-5 15:55:04.970 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Apr-5 15:55:04.980 [T70J8333P] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Apr-5 15:55:04.980 [T70J8333P] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Apr-5 15:55:04.990 [T70J8333P] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Apr-5 15:55:04.101 [T70J8333P] SOCKET-MANAGER: Changing from checking_fast_reconnect to prov_connect
+info: Apr-5 15:55:04.102 [T70J8333P] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Apr-5 15:55:04.103 [T70J8333P] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Apr-5 15:55:04.103 [T70J8333P] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+error: WebSocket connection to 'wss://mpmulti-bjsz.lb.slack-msgs.com/?token=xoxs-⋯&channel_count_everyone=1&start_args=%3Fagent%3Dwebapp_366cfa11310c35a0495fd3262106f95848c40db7%26eac_cache_ts%3Dtrue%26cache_ts%3D0%26name_tagging%3Dtrue%26ms_latest%3Dtrue&flannel=2' failed: Error in connection establishment: net::ERR_NETWORK_CHANGED
+info: Apr-5 15:55:04.178 [T70J8333P] SOCKET-MANAGER: Changing from prov_connecting to error
+info: Apr-5 15:55:04.179 [T70J8333P] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Apr-5 15:55:04.185 T70J8333P SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/4/5 15:55:04.187  Stacktrace: ↴
+ at e (https://cfr.slack-edge.com/bv1-1/rollup-core_required_ts.6bb3a1ecc74f453613c0.min.js:1:68470)
+at https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1509709
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1725245)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727166)
+at s (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1651010)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1727540)
+at e (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1721155)
+at e.<anonymous> (https://cfr.slack-edge.com/bv1-1/rollup-core_required_libs.c0dc38f60627b10d1857.min.js:1:928037)
+at E (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1777054)
+at WebSocket._socket.onclose (https://cfr.slack-edge.com/bv1-1/modern.vendor.d2134b88d9de95ec16e7.min.js:1:1778745)
+info: Apr-5 15:55:04.946 [T70J8333P] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Apr-5 15:55:04.946 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:55:05.185 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Apr-5 15:55:05.186 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Apr-5 15:55:05.188 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Apr-5 15:55:05.188 [T70J8333P] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Apr-5 15:55:05.189 [T70J8333P] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Apr-5 15:55:05.190 [T70J8333P] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Apr-5 15:55:05.192 [T70J8333P] SOCKET-MANAGER: Changing from checking_fast_reconnect to prov_connect
+info: Apr-5 15:55:05.192 [T70J8333P] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Apr-5 15:55:05.193 [T70J8333P] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Apr-5 15:55:05.193 [T70J8333P] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Apr-5 15:55:05.698 [T70J8333P] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Apr-5 15:55:05.699 [T70J8333P] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Apr-5 15:55:05.701 [INFO] Got start data from Socket Manager; hydrating it
+info: Apr-5 15:55:05.708 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Apr-5 15:55:05.710 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Apr-5 15:55:06.137 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Apr-5 15:55:06.140 [T70J8333P] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Apr-5 15:55:06.140 [T70J8333P] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Apr-5 15:55:06.141 [T70J8333P] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Apr-5 15:55:06.142 [T70J8333P] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Apr-5 15:55:06.145 [T70J8333P] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Apr-5 15:55:06.145 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-5 15:55:06.146 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Apr-5 15:55:06.147 [T70J8333P] EVENTLOG fr=false, lc=false, lt=1522945117.000184
+info: Apr-5 15:55:06.147 [T70J8333P] EVENTLOG fetching events since 1522945117.000184 (12989.999815940857 seconds ago)
+info: Apr-5 15:55:06.310 [T70J8333P] EVENTLOG nothing to process
+info: Apr-5 15:55:06.310 [T70J8333P] EVENTLOG fetched finish (cancelled? false)
+info: Apr-5 15:55:06.310 [T70J8333P] EVENTLOG dispatching signal and clearing timestamp
+info: Apr-5 15:55:06.344 [UNREAD-COUNTS] Completed users.counts processing
+info: Apr-5 15:57:07.756 [T70J8333P] SOCKET-MANAGER: got offline event; moving to DISCONNECT as needed
+info: Apr-5 15:57:07.758 [T70J8333P] SOCKET-MANAGER: Changing from connected to disconnect
+info: Apr-5 15:57:07.758 [T70J8333P] SOCKET-MANAGER: will stay in disconnect state for up to 10000 ms
+info: Apr-5 15:57:07.759 [T70J8333P] SOCKET-MANAGER: Changing from disconnect to disconnecting
+info: Apr-5 15:57:07.759 [T70J8333P] SOCKET-MANAGER: will stay in disconnecting state for up to 10000 ms
+info: Apr-5 15:57:07.759 [T70J8333P] SOCKET-MANAGER: Changing from disconnecting to disconnected
+info: Apr-5 15:57:07.759 [T70J8333P] SOCKET-MANAGER: will stay in disconnected state for up to 10000 ms
+info: Apr-5 15:57:07.760 [T70J8333P] SOCKET-MANAGER: Disconnected! Online? false
+info: Apr-5 15:57:07.760 [T70J8333P] SOCKET-MANAGER: Changing from disconnected to wait_for_connectivity
+info: Apr-5 15:57:07.760 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Apr-5 15:57:07.762 [INFO] Hiding the reconnection banner because we are disconnected
+warn: Apr-5 15:57:08.945 Internet connection still offline after 1 attempts (browser says it is still offline)
+warn: Apr-5 15:57:10.946 Internet connection still offline after 2 attempts (browser says it is still offline)
+info: Apr-5 15:57:13.162 [INFO] Internet connection has been re-established after 3 retry attempts; offline for NaN seconds
+info: Apr-5 15:57:13.164 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Apr-5 15:57:13.164 [T70J8333P] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Apr-5 15:57:13.165 [T70J8333P] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Apr-5 15:57:13.166 [T70J8333P] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Apr-5 15:57:13.167 [T70J8333P] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Apr-5 15:57:13.167 [T70J8333P] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Apr-5 15:57:13.348 [T70J8333P] SOCKET-MANAGER: Changing from checking_fast_reconnect to connecting
+info: Apr-5 15:57:13.348 [T70J8333P] SOCKET-MANAGER: will stay in connecting state for up to 20000 ms
+info: Apr-5 15:57:13.592 [T70J8333P] SOCKET-MANAGER: Changing from connecting to connected
+info: Apr-5 15:57:13.592 [T70J8333P] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Apr-5 15:57:13.593 [T70J8333P] EVENTLOG fr=true, lc=false, lt=1522957093.000004

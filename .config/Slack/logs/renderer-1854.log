@@ -1,0 +1,62 @@
+[06/14/18, 13:38:12:847] info: ╔══════════════════════════════════════════════════════════════════════════════╗
+[06/14/18, 13:38:12:848] info: ║      Slack 3.2.1, linux 4.16.13-2-ARCH on x64 at 06/14/18, 13:38:12:845      ║
+[06/14/18, 13:38:12:848] info: ╚══════════════════════════════════════════════════════════════════════════════╝
+[06/14/18, 13:38:12:991] info: Initializing local storage instance at path: /home/meach/.config/Slack/local-settings.json
+[06/14/18, 13:38:13:353] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/14/18, 13:38:13:357] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T70J8333P"
+}
+[06/14/18, 13:38:13:358] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T70J8333P"
+}
+[06/14/18, 13:38:13:361] info: Store: BACKGROUND_CLIENTS_INITIALIZED
+[06/14/18, 13:38:13:362] info: Don't start background client because T70J8333P is selected team
+[06/14/18, 13:38:13:368] info: Store: BACKGROUND_CLIENTS_INITIALIZED true
+[06/14/18, 13:38:13:464] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/14/18, 13:38:13:466] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T70J8333P"
+}
+[06/14/18, 13:38:13:543] info: Store: SET_NETWORK_STATUS offline
+[06/14/18, 13:38:13:877] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T70J8333P"
+}
+[06/14/18, 13:38:13:881] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "empty-page",
+  "teamId": "T70J8333P"
+}
+[06/14/18, 13:38:13:984] warn: Tried to determine signed in status, but errored.
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[06/14/18, 13:38:13:986] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": null,
+  "teamId": "T70J8333P"
+}
