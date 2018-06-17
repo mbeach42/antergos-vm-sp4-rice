@@ -2,11 +2,11 @@
 # i3 config file (v4)
 ##########################################
 set $mod Mod4
-font pango:monospace 9
+font pango:monospace 12
 hide_edge_borders both
-gaps inner 10
-gaps outer 0
-for_window [class="^.*"] border pixel 5
+gaps inner 10 #15
+gaps outer 2 #5
+for_window [class="^.*"] border pixel 6 # 12
 floating_modifier $mod
 
 # essential programs
@@ -81,8 +81,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # colors and i3blocks bar
-#set $bg-color           #a81515
-set $bg-color            #108aa8
+#set $bg-color           #a569bd 
+set $bg-color            #a569bd #108aa8
 set $inactive-bg-color   #2f343f
 set $text-color          #f3f4f5
 set $inactive-text-color #676e7d
@@ -133,8 +133,9 @@ bindsym $mod+m exec "/usr/local/bin/switch-audio-port"
 
 # Autostart apps
 #exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id "compton -cC"
+exec_always --no-startup-id "compton -b"   
 #exec --no-startup-id nm-applet
 exec --no-startup-id dropbox &
-exec_always --no-startup-id feh --bg-scale ~/.wallpaper/mountains.jpg
+exec_always sshfs mbeach@10.10.7.148:/home/mbeach/ /mnt/titan
+exec_always --no-startup-id feh --bg-scale ~/.wallpaper/bNpZONm.jpg
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

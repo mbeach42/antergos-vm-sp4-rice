@@ -7,3 +7,10 @@ xrandr --output Virtual-1 --mode hd
 xrandr --newmode "sp4" 426.00 2736 2952 3248 3760 1824 1827 1837 1890 -hsync +vsync
 xrandr --addmode Virtual-1 sp4
 xrandr --output Virtual-1 --mode sp4
+
+
+xinput --set-prop 11 'libinput Accel Speed' 0.85
+xinput --set-prop 12 'libinput Accel Speed' 0.001
+
+libinput-gestures-setup autostart
+libinput-gestures-setup start
