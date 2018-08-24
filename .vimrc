@@ -101,9 +101,9 @@ let g:vimtex_view_general_viewer = 'mupdf'
 set nocompatible
 filetype plugin on
 runtime macros/matchit.vim
-let g:default_julia_version = "0.6"
+let g:default_julia_version = "1.0"
 let g:julia_blocks = 1
-let  g:latex_to_unicode_tab = 1
+let g:latex_to_unicode_tab = 1
 let g:latex_to_unicode_auto = 1  
 
 
@@ -114,7 +114,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
-
 
 
 setlocal spell spelllang=en_us
